@@ -12,4 +12,8 @@ class LoginActivity extends Model
         'user_id',
         'login_time'
     ];
+
+    public function user(){
+        $this->belongsTo(User::class);
+    }
 }

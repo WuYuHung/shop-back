@@ -13,4 +13,8 @@ class PasswordReset extends Model
         'token',
         'reset_time'
     ];
+
+    public function user(){
+        $this->belongsTo(User::class);
+    }
 }

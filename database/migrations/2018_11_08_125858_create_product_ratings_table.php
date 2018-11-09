@@ -16,7 +16,9 @@ class CreateProductRatingsTable extends Migration
         Schema::create('product_ratings', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedInteger('product_id');
+            $table->foreign('product_id')->references('id')->on('products');
             $table->float('rating');
             $table->text('description');
             $table->timestamp('created_at');

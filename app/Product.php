@@ -15,4 +15,9 @@ class Product extends Model
         'updated_at',
         'photo_path'
     ];
+
+    public function categories(){
+        return $this->belongsTo(Category::class);
+    }
+
 }

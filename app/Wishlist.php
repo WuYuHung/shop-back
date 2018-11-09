@@ -12,4 +12,5 @@ class Wishlist extends Model
       'user_id',
       'product_id'
     ];
+
 }

@@ -13,4 +13,12 @@ class UserCoupon extends Model
         'coupon_id',
         'is_used'
     ];
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
+
+    public function coupon(){
+        return $this->hasOne(Coupon::class);
+    }
 }

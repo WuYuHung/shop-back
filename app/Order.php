@@ -10,7 +10,7 @@ class Order extends Model
     protected $fillable =[
         'id',
         'user_id',
-        'coupons_id',
+        'coupon_id',
         'amount',
         'first_name',
         'last_name',
@@ -22,4 +22,12 @@ class Order extends Model
         'updated_at',
         'status',
     ];
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
+
+    public function coupon(){
+        return $this->hasOne(Coupon::class);
+    }
 }

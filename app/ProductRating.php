@@ -16,4 +16,12 @@ class ProductRating extends Model
         'created_at',
         'is_buy',
     ];
+
+    public function user(){
+        return $this->belongsTo(Order::class);
+    }
+
+    public function product(){
+        return $this->hasOne(Product::class);
+    }
 }

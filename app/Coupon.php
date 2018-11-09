@@ -14,4 +14,8 @@ class Coupon extends Model
         'end_date',
         'description',
     ];
+
+    public function order(){
+        return $this->hasOne(Order::class);
+    }
 }
