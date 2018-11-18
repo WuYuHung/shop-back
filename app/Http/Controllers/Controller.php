@@ -13,6 +13,10 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(){
-        return View('login');
+        return View('test');
+    }
+
+    public function index2(){
+        return View('login2');
     }
 }

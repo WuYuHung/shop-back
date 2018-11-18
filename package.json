@@ -20,8 +20,13 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "animate.css": "^3.7.0",
         "flag-icon-css": "^3.2.1",
+        "font-awesome": "^4.7.0",
+        "icheck": "^1.0.2",
+        "jqvmap": "^1.5.1",
         "mdi": "^2.2.43",
+        "nprogress": "^0.2.0",
         "simple-line-icons": "^2.4.1"
     }
 }

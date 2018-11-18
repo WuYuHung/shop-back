@@ -14,4 +14,10 @@ Route::get('/', function() {
     return 'welcome';
 });
 
-Route::get('/login', 'Controller@index');
+Route::get('/index', 'Controller@index')->name('index');
+
+Route::get('/login', 'Controller@index2');
+
+Route::get('/user', 'UsersController@index')->name('user');
+
+Route::get('/product', 'ProductsController@index')->name('product');
