@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class ProductRating extends Model
 {
     protected  $table = 'product_ratings';
+    public $timestamps = false; // disable all behaviour
     //
     protected $fillable =[
         'id',

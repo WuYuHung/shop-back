@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class UserCoupon extends Model
 {
     protected  $table = 'user_coupons';
+    public $timestamps = false; // disable all behaviour
     //
     protected $fillable = [
         'id',
