@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Order;
 use App\User;
+use App\Order;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

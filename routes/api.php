@@ -17,10 +17,22 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('register','Api\AuthController@register');
+Route::get('login','Api\AuthController@login');
+
+Route::middleware('auth:api')->group(function()
+{
+    Route::post('/logout','Api\AuthController@logout');
+    Route::post('/refresh','Api\AuthController@refresh');
+    Route::post('/orders','Api\OrdersController@store');
+});
+
 //product
 Route::get('/products', 'Api\ProductController@index');
 Route::get('/product/{id}','Api\ProductController@show');
+Route::get('/product/{id}/ratings','Api\ProductController@allratings');
 Route::get('/products/sort/{type}/{sort}','Api\ProductController@sort');
+
 
 //user
 Route::get('/users', 'Api\UsersController@index');

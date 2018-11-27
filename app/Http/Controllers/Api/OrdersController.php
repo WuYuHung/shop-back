@@ -6,6 +6,7 @@ use App\Order;
 use App\OrderProduct;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Log;
 
 class OrdersController extends Controller
 {
@@ -14,6 +15,8 @@ class OrdersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    
     public function index()
     {
         //
@@ -48,7 +51,11 @@ class OrdersController extends Controller
     public function store(Request $request)
     {
         //
+        Log::info($request->all());
 
+        return response()->json([
+            'success'=> true,
+        ]);
     }
 
     /**

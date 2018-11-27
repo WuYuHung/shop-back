@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Product;
+use App\ProductRating;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -26,6 +27,13 @@ class ProductController extends Controller
         $products = Product::orderBy($type,$sort)->get();
 
         return response()->json($products,200);
+    }
+
+    public function allratings($id)
+    {
+        $ratings = ProductRating::where('id',$id)->get();
+
+        return response()->json($ratings,200);
     }
 
     /**
