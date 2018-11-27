@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Product;
+use App\Order;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ProductController extends Controller
+class UsersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,16 +17,16 @@ class ProductController extends Controller
     public function index()
     {
         //
-        $products = Product::all();
+        $users = User::all();
 
-        return response()->json($products,200);
+        return response()->json($users,200);
     }
 
-    public function sort(string $type,string $sort)
+    public function allorders($id)
     {
-        $products = Product::orderBy($type,$sort)->get();
+        $products = Order::where('user_id',$id)->get();
 
-        return response()->json($products,200);
+        return response()->json($products);
     }
 
     /**
@@ -58,14 +59,13 @@ class ProductController extends Controller
     public function show($id)
     {
         //
-        $product = Product::find($id);
-        if($product === null)
+        $user = User::find($id);
+        if($user === null)
         {
             abort(404);
         }
 
-        return response()->json($product,200);
-        //return json_encode($product, JSON_UNESCAPED_UNICODE);
+        return response()->json($user,200);
     }
 
     /**
