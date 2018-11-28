@@ -15,11 +15,15 @@ Route::get('/', 'Controller@index2');
 
 Route::get('/index', 'Controller@index')->name('index');
 
-Route::get('/login', 'Controller@index2');
-
 Route::get('/user', 'UsersController@index')->name('user');
 
 Route::get('/product', 'ProductsController@index')->name('product');
+
 Route::middleware('auth')->group(function() {
+
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

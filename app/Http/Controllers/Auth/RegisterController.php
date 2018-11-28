@@ -67,6 +67,17 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'address' => '123',
+            'phone' => '123',
+            'birthdate' => '2018/1/1',
+            'permission' => false,
+            'active' => true,
+            'photo_path' => ''
         ]);
+    }
+
+    protected  function redirectTo()
+    {
+        return route('index');
     }
 }
