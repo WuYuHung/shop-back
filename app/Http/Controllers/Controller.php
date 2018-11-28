@@ -17,6 +17,6 @@ class Controller extends BaseController
     }
 
     public function index2(){
-        return View('login2');
+        return View('login');
     }
 }
