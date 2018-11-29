@@ -17,8 +17,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('register','Api\AuthController@register');
-Route::get('login','Api\AuthController@login');
+Route::post('register','Api\AuthController@register');
+Route::post('login','Api\AuthController@login');
 
 Route::middleware('auth:api')->group(function()
 {
@@ -47,4 +47,7 @@ Route::get('/category/{id}','Api\CategoriesController@show');
 Route::get('/orders', 'Api\OrdersController@index');
 Route::get('/order/{id}','Api\OrdersController@show');
 Route::get('/order/{id}/products','Api\OrdersController@allproducts');
+
+Route::post('/order','Api\OrdersController@store');
+Route::post('/order/product','Api\OrdersController@storeproduct');
 

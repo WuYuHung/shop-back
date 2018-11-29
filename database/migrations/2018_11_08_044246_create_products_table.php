@@ -19,7 +19,7 @@ class CreateProductsTable extends Migration
             $table->unsignedInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
             $table->decimal('price',10,2);
-            $table->text('description');
+            $table->string('description');
             $table->timestamps();
             $table->string('photo_path');
         });

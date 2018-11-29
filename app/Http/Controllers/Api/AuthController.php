@@ -20,7 +20,13 @@ class AuthController extends Controller
         $this->validate(
             $request,
             [
-                //...
+                'name' => 'required|string',
+                'email' => 'required|string|email|unique:users',
+                'birthdate' => 'required|',
+                'address' => 'required',
+                'phone' => 'required|digits:10',
+                'password' => 'required|string|min:8',
+                'password_confirmation' => 'required|same:password',
             ]
         );
 
@@ -75,7 +81,7 @@ class AuthController extends Controller
         return response()->json([
             'token' => $token,
             'token_type' => 'bearer',
-            'expires_in' => auth()->factory()->getTTL() * 60
+            'expires_in' => auth('api')->factory()->getTTL() * 60
         ]);
     }
 }

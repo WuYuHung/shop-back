@@ -51,10 +51,49 @@ class OrdersController extends Controller
     public function store(Request $request)
     {
         //
-        Log::info($request->all());
+        $this->validate(
+            $request,
+            [
+                'user_id' => 'required',
+                'amount' => 'required|integer',
+                'first_name' => 'required|string',
+                'last_name' => 'required|string',
+                'company_name' => 'required|string',
+                'address' => 'required|string',
+                'email' => 'required|email',
+                'phone' => 'required',
+            ]
+        );
+
+       $id= Order::insertGetId([
+            'user_id' => $request->user_id,
+            'coupon_id' => $request->coupon_id,
+            'amount' => $request->amount,
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'company_name' => $request->company_name,
+            'address' => $request->address,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'status' => 'pay'
+        ]);
 
         return response()->json([
             'success'=> true,
+            'order_id' => $id
+        ]);
+    }
+
+    public function storeproduct(Request $request)
+    {
+        OrderProduct::create([
+            'order_id' => $request->order_id,
+            'product_id'=> $request->product_id,
+            'quantity' => $request->quantity
+        ]);
+
+        return response()->json([
+            'success'=> true
         ]);
     }
 
