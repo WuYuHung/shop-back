@@ -1,5 +1,5 @@
 
-@extends('index')
+@extends('layouts.blank')
 
 @section('content')
 welcome

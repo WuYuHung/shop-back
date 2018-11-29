@@ -11,15 +11,17 @@
 |
 */
 
-Route::get('/', 'Controller@index2');
-
-Route::get('/index', 'Controller@index')->name('index');
-
-Route::get('/user', 'UsersController@index')->name('user');
-
-Route::get('/product', 'ProductsController@index')->name('product');
+Route::get('/',function (){
+    return redirect()->route('login');
+});
 
 Route::middleware('auth')->group(function() {
+
+    Route::get('/index', 'Controller@index')->name('index');
+
+    Route::get('/user', 'UsersController@index')->name('user');
+
+    Route::get('/product', 'ProductsController@index')->name('product');
 
 });
 

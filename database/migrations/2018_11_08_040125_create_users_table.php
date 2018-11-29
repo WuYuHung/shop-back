@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->date('birthdate');
             $table->boolean('permission')->default(false);
             $table->timestamps();
+            $table->string('remember_token')->nullable();
             $table->string('photo_path');
             $table->boolean('active');
         });
