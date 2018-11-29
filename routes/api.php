@@ -30,6 +30,7 @@ Route::middleware('auth:api')->group(function()
 //product
 Route::get('/products', 'Api\ProductController@index');
 Route::get('/product/{id}','Api\ProductController@show');
+Route::get('/product/categories/{id}','Api\ProductController@categories');
 Route::get('/product/{id}/ratings','Api\ProductController@allratings');
 Route::get('/products/sort/{type}/{sort}','Api\ProductController@sort');
 
@@ -38,6 +39,8 @@ Route::get('/products/sort/{type}/{sort}','Api\ProductController@sort');
 Route::get('/users', 'Api\UsersController@index');
 Route::get('/user/{id}','Api\UsersController@show');
 Route::get('/user/{id}/orders','Api\UsersController@allorders');
+
+Route::post('/user/{id}','Api\UsersController@edit');
 
 //category
 Route::get('/categories', 'Api\CategoriesController@index');
@@ -50,4 +53,5 @@ Route::get('/order/{id}/products','Api\OrdersController@allproducts');
 
 Route::post('/order','Api\OrdersController@store');
 Route::post('/order/product','Api\OrdersController@storeproduct');
+
 

@@ -31,9 +31,18 @@ class ProductController extends Controller
 
     public function allratings($id)
     {
-        $ratings = ProductRating::where('id',$id)->get();
+        $ratings = ProductRating::join('users',"user_id","=","users.id")
+            ->where('product_id',$id)
+            ->select('users.name','rating','description','product_ratings.created_at','is_buy')
+            ->get();
 
         return response()->json($ratings,200);
+    }
+
+    public function  categories($id)
+    {
+        $products = Product::where('category_id',$id)->get();
+        return response()->json($products,200);
     }
 
     /**

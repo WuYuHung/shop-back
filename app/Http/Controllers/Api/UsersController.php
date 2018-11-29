@@ -74,9 +74,17 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Request $request,$id)
     {
         //
+        $user = User::find($id);
+
+        if($user === null)
+        {
+            abort(404);
+        }
+        $user->update($request->all());
+        return response()->json($user,200);
     }
 
     /**
