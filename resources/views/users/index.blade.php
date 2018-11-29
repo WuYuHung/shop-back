@@ -10,7 +10,6 @@
                 <small></small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> 會員管理</a></li>
                 <li class="active">會員列表</li>
             </ol>
         </section>
@@ -44,7 +43,7 @@
                                     <th class="text-center" style="width: 50px">photo</th>
                                 </tr>
                                 @foreach ($users as $user)
-                                    @if(!$user->active)
+
                                         <tr>
                                             <td>{{ $user->id }}.</td>
                                             <td>{{ $user->email }}</td>
@@ -53,46 +52,29 @@
                                             <td>{{ $user->phone}}</td>
                                             <td>{{ $user->birthdate }}</td>
                                             <td>{{ $user->photo_path }}</td>
+
                                             <td class="text-center">
-                                                <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
-                                                    @csrf
-                                                    <button type="submit" class="btn btn-xs btn-danger">啟用</button>
-                                                </form>
+                                                @if(!$user->active)
+                                                    <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
+                                                        @csrf
+                                                        <button type="submit" class="btn btn-xs btn-danger">啟用</button>
+                                                    </form>
+                                                @else
+                                                    <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
+                                                        @csrf
+                                                        @method('DELETE')
+                                                        <button type="submit" class="btn btn-xs btn-danger">刪除</button>
+                                                    </form>
+                                                @endif
                                             </td>
                                         </tr>
-                                    @else
-                                    <tr>
-                                        <td>{{ $user->id }}.</td>
-                                        <td>{{ $user->email }}</td>
-                                        <td>{{ $user->name }}</td>
-                                        <td>{{ $user->address }}</td>
-                                        <td>{{ $user->phone}}</td>
-                                        <td>{{ $user->birthdate }}</td>
-                                        <td>{{ $user->photo_path }}</td>
-                                        <td class="text-center">
-                                            <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="btn btn-xs btn-danger">刪除</button>
-                                            </form>
-                                        </td>
-                                        </td>
-                                    </tr>
-                                    @endif
+
                                 @endforeach
 
                             </table>
                         </div>
                         <!-- /.box-body -->
-                        <div class="box-footer clearfix">
-                            <ul class="pagination pagination-sm no-margin pull-right">
-                                <li><a href="#">&laquo;</a></li>
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">&raquo;</a></li>
-                            </ul>
-                        </div>
+                        {!! $users->render() !!}
                 </div>
                 <!-- /.col -->
             </div>

@@ -49,7 +49,7 @@
               <a class="nav-link"><i class="fas fa-users"> 會員</i></a>
             </li>
               <li class="nav-item">
-                  <a class="nav-link" href="{{route('user')}}">
+                  <a class="nav-link" href="{{route('user.index')}}">
                       <span class="menu-title">查詢</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>
@@ -103,7 +103,7 @@
             </li>
 
               <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
+                  <a class="nav-link" href="{{route('order.index')}}">
                       <span class="menu-title">查詢</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>

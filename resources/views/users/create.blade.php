@@ -12,7 +12,6 @@
                 <small></small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> 會員管理</a></li>
                 <li class="active">新增會員</li>
             </ol>
         </section>
@@ -33,7 +32,7 @@
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <form role="form" action="{{ route('user') }}" method="post">
+                        <form role="form" action="{{ route('user.index') }}" method="post">
 
                             @csrf
 

@@ -14,7 +14,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        $users = User::orderBy('created_at','DESC')->get();
+        $users = User::orderBy('created_at','DESC')->paginate(10);
         $data = [
             'users'=>$users,
         ];
@@ -51,7 +51,7 @@ class UsersController extends Controller
             'photo_path' => $request->photo_path,
             'active' => true,
         ]);
-        return redirect()->route('user');
+        return redirect()->route('user.index');
     }
 
     /**
@@ -62,7 +62,8 @@ class UsersController extends Controller
      */
     public function show($id)
     {
-        //
+
+
     }
 
     /**
@@ -75,7 +76,7 @@ class UsersController extends Controller
     {
         //
         User::find($id)->update(['active'=>true]);
-        return redirect()->route('user');
+        return redirect()->route('user.index');
     }
 
     /**
@@ -96,6 +97,6 @@ class UsersController extends Controller
     public function destroy(User $user)
     {
         $user->update(['active'=>false]);
-        return redirect()->route('user');
+        return redirect()->route('user.index');
     }
 }
