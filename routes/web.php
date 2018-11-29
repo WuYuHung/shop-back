@@ -20,8 +20,14 @@ Route::middleware('auth')->group(function() {
     Route::get('/index', 'Controller@index')->name('index');
 
     Route::get('/user', 'UsersController@index')->name('user');
+    Route::get('/user/create','UsersController@create')->name('user.create');
+    Route::delete('/user/{user}','UsersController@destroy')->name('user.destroy');
+    Route::post('/user/{user}','UsersController@edit')->name('user.update');
+    Route::post('/user','UsersController@store')->name('user.store');
 
     Route::get('/product', 'ProductsController@index')->name('product');
+
+
 
 });
 

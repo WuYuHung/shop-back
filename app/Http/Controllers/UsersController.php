@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 
 class UsersController extends Controller
@@ -13,7 +14,11 @@ class UsersController extends Controller
      */
     public function index()
     {
-        //
+        $users = User::orderBy('created_at','DESC')->get();
+        $data = [
+            'users'=>$users,
+        ];
+        return view('users.index',$data);
     }
 
     /**
@@ -23,7 +28,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        return view('users.create');
     }
 
     /**
@@ -35,6 +40,18 @@ class UsersController extends Controller
     public function store(Request $request)
     {
         //
+        User::create([
+            'email' => $request->email,
+            'password' => $request->password,
+            'name' => $request->name,
+            'address' => $request->address,
+            'phone' => $request->phone,
+            'birthdate' => $request->birthdate,
+            'permission' => false,
+            'photo_path' => $request->photo_path,
+            'active' => true,
+        ]);
+        return redirect()->route('user');
     }
 
     /**
@@ -57,6 +74,8 @@ class UsersController extends Controller
     public function edit($id)
     {
         //
+        User::find($id)->update(['active'=>true]);
+        return redirect()->route('user');
     }
 
     /**
@@ -65,11 +84,8 @@ class UsersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
+
+
 
     /**
      * Remove the specified resource from storage.
@@ -77,8 +93,9 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(User $user)
     {
-        //
+        $user->update(['active'=>false]);
+        return redirect()->route('user');
     }
 }
