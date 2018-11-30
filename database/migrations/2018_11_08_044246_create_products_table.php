@@ -22,6 +22,7 @@ class CreateProductsTable extends Migration
             $table->string('description');
             $table->timestamps();
             $table->string('photo_path');
+            $table->boolean('is_deleted');
         });
     }
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Product;
 use Illuminate\Http\Request;
 
 class ProductsController extends Controller
@@ -14,6 +15,11 @@ class ProductsController extends Controller
     public function index()
     {
         //
+        $products = Product::paginate(6);
+        $data = [
+            'products' => $products,
+        ];
+        return View('products.index', $data);
     }
 
     /**
@@ -23,7 +29,7 @@ class ProductsController extends Controller
      */
     public function create()
     {
-        //
+        return View('products.create');
     }
 
     /**
@@ -34,7 +40,15 @@ class ProductsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Product::create([
+            'name'=> $request->name,
+            'category_id'=> $request->category_id,
+            'price'=>$request->price,
+            'description'=>$request->description,
+            'photo_path'=>'abc',
+            'is_deleted' => false
+        ]);
+        return redirect()->route('products.index');
     }
 
     /**
@@ -56,7 +70,11 @@ class ProductsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $product = Product::find($id);
+        $data = [
+            'product' => $product,
+        ];
+        return View('products.edit',$data);
     }
 
     /**
@@ -68,7 +86,12 @@ class ProductsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $product = Product::find($id);
+        $product->update($request->all());
+        $product->save();
+
+        return redirect()->route('products.index');
+
     }
 
     /**

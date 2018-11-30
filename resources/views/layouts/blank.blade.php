@@ -67,13 +67,13 @@
             </li>
 
               <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
+                  <a class="nav-link" href="{{route('products.index')}}">
                       <span class="menu-title">查詢</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/tables/basic-table.html">
+              <a class="nav-link" href="{{route('products.create')}}">
                 <span class="menu-title">上架</span>
                 <i class="icon-grid menu-icon"></i>
               </a>
@@ -85,13 +85,13 @@
             </li>
 
               <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
+                  <a class="nav-link" href="{{route('categories.index')}}">
                       <span class="menu-title">查詢</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
+                  <a class="nav-link" href="{{route('categories.create')}}">
                       <span class="menu-title">新增分類</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>

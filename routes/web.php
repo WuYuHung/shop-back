@@ -21,7 +21,23 @@ Route::middleware('auth')->group(function() {
 
     Route::get('/user', 'UsersController@index')->name('user');
 
-    Route::get('/product', 'ProductsController@index')->name('product');
+
+    Route::prefix('products')->name('products.')->group(function (){
+        Route::get('/', 'ProductsController@index')->name('index');
+        Route::get('/create', 'ProductsController@create')->name('create');
+        Route::post('/', 'ProductsController@store')->name('store');
+        Route::get('/{id}/edit', 'ProductsController@edit')->name('edit');
+        Route::patch('/{id}', 'ProductsController@update')->name('update');
+    });
+
+    Route::prefix('categories')->name('categories.')->group(function (){
+        Route::get('/', 'CategoriesController@index')->name('index');
+        Route::get('/create', 'CategoriesController@create')->name('create');
+        Route::post('/', 'CategoriesController@store')->name('store');
+        Route::get('/{id}/edit', 'CategoriesController@edit')->name('edit');
+        Route::patch('/{id}', 'CategoriesController@update')->name('update');
+    });
+
 
 });
 
