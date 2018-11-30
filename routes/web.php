@@ -31,6 +31,12 @@ Route::middleware('auth')->group(function() {
         Route::post('/{order}','OrdersController@edit')->name('update');
         Route::get('/{id}','OrdersController@show')->name('show');
     });
+    Route::prefix('coupon')->name('coupon.')->group(function(){
+       Route::get('/','CouponsController@index')->name('index');
+       Route::get('/create','CouponsController@create')->name('create');
+       Route::post('/','CouponsController@store')->name('store');
+
+    });
 
     Route::get('/product', 'ProductsController@index')->name('product');
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Coupon;
 use Illuminate\Http\Request;
 
 class CouponsController extends Controller
@@ -13,7 +14,11 @@ class CouponsController extends Controller
      */
     public function index()
     {
-        //
+        $coupons = Coupon::orderBy('start_date','DESC')->paginate(10);
+        $data =[
+          'coupons' => $coupons,
+        ];
+        return view('coupons.index',$data);
     }
 
     /**
@@ -23,7 +28,7 @@ class CouponsController extends Controller
      */
     public function create()
     {
-        //
+        return view('coupons.create');
     }
 
     /**
@@ -34,7 +39,8 @@ class CouponsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Coupon::create($request->all());
+        return redirect()->route('coupon.index');
     }
 
     /**

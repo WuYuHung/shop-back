@@ -115,7 +115,7 @@
             </li>
 
               <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
+                  <a class="nav-link" href="{{route('coupon.index')}}">
                       <span class="menu-title">查詢</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>

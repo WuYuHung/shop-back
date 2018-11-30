@@ -85,7 +85,7 @@
                                 <a class="btn btn-link" href="#">取消</a>
                                 <button type="submit" class="btn btn-primary">新增</button>
                             </div>
-                        </form>
+
                     </div>
                     <!-- /.box -->
 
