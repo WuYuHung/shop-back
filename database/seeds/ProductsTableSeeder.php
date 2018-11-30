@@ -19,7 +19,8 @@ class ProductsTableSeeder extends Seeder
                     'category_id' => $number,
                     'price' => rand( 10,150)*100,
                     'description' => '非常美麗的鞋子',
-                    'photo_path' => ' '
+                    'photo_path' => ' ',
+                    'is_deleted' => false
                 ]);
             }
         }
