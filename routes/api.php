@@ -51,6 +51,7 @@ Route::get('/orders', 'Api\OrdersController@index');
 Route::get('/order/{id}','Api\OrdersController@show');
 Route::get('/order/{id}/products','Api\OrdersController@allproducts');
 
+//order post
 Route::post('/order','Api\OrdersController@store');
 Route::post('/order/product','Api\OrdersController@storeproduct');
 
