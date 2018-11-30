@@ -53,11 +53,11 @@
 
                             <div class="form-group">
                                 <label for="code">代碼</label>
-                                <input type="text" class="form-control" id="code" name="code" placeholder="輸入代碼" value="{{ old('code') }}">
+                                <input type="text" class="form-control" id="code" name="code" placeholder="輸入代碼" value="{{ old('code') }}" required />
                             </div>
                             <div class="form-group">
                                 <label for="start_date">生效日期</label>
-                                <input class="form-control" type="date" id="start_date"  name="start_date" >{{ old('start_date') }}
+                                <input class="form-control" type="date" id="start_date"  name="start_date" min="{{\Carbon\Carbon::now()->toDateString()}}" >{{ old('start_date') }}
                             </div>
                             <div class="form-group">
                                 <label for="end_date">結束日期</label>

@@ -53,27 +53,27 @@
 
                                 <div class="form-group">
                                     <label for="name">姓名</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="請輸入姓名" value="{{ old('name') }}">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="請輸入姓名" value="{{ old('name') }}" required />
                                 </div>
                                 <div class="form-group">
                                     <label for="email">email</label>
-                                    <input type="text" class="form-control" id="email" name="email" placeholder="請輸入email" value="{{ old('email') }}">
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="請輸入email" value="{{ old('email') }}" required />
                                 </div>
                                 <div class="form-group">
                                     <label for="password">密碼</label>
-                                    <input type="text" class="form-control" id="password" name="password" placeholder="請輸入密碼" value="{{ old('password') }}">
+                                    <input type="text" class="form-control" id="password" name="password" placeholder="請輸入密碼" value="{{ old('password') }}" required />
                                 </div>
                                 <div class="form-group">
                                     <label for="address">地址</label>
-                                    <input type="text" class="form-control" id="address" name="address"  placeholder="請輸入地址" value="{{ old('address') }}">
+                                    <input type="text" class="form-control" id="address" name="address"  placeholder="請輸入地址" value="{{ old('address') }}" required />
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">電話</label>
-                                    <input class="form-control" id="phone" name="phone" placeholder="請輸入電話">{{ old('phone') }}
+                                    <input class="form-control" id="phone" name="phone" placeholder="請輸入電話" required />{{ old('phone') }}
                                 </div>
                                 <div class="form-group">
                                     <label for="birthdate">生日日期</label>
-                                    <input class="form-control" type="date" id="birthdate"  name="birthdate" placeholder="ex:1981-08-01">{{ old('birthdate') }}
+                                    <input class="form-control" type="date" id="birthdate"  name="birthdate" max="{{\Carbon\Carbon::now()->toDateString()}}">{{ old('birthdate') }}
                                 </div>
                                 <div class="form-group">
                                     <label for="photo_path">photo</label>
@@ -82,7 +82,7 @@
                             <!-- /.box-body -->
 
                             <div class="box-footer text-right">
-                                <a class="btn btn-link" href="#">取消</a>
+                                <a class="btn btn-link" href="{{route('user.index')}}">取消</a>
                                 <button type="submit" class="btn btn-primary">新增</button>
                             </div>
 

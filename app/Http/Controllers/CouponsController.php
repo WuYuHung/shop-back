@@ -40,6 +40,7 @@ class CouponsController extends Controller
     public function store(Request $request)
     {
         Coupon::create($request->all());
+
         return redirect()->route('coupon.index');
     }
 
