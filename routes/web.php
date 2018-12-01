@@ -18,8 +18,25 @@ Route::get('/',function (){
 Route::middleware('auth')->group(function() {
 
     Route::get('/index', 'Controller@index')->name('index');
+    Route::prefix('user')->name('user.')->group(function(){
+        Route::get('/', 'UsersController@index')->name('index');
+        Route::get('/create','UsersController@create')->name('create');
+        Route::delete('/{user}','UsersController@destroy')->name('destroy');
+        Route::post('/{user}','UsersController@edit')->name('update');
+        Route::post('/','UsersController@store')->name('store');
+    });
+    Route::prefix('order')->name('order.')->group(function(){
+        Route::get('/', 'OrdersController@index')->name('index');
+        Route::delete('/{order}','OrdersController@destroy')->name('destroy');
+        Route::post('/{order}','OrdersController@edit')->name('update');
+        Route::get('/{id}','OrdersController@show')->name('show');
+    });
+    Route::prefix('coupon')->name('coupon.')->group(function(){
+       Route::get('/','CouponsController@index')->name('index');
+       Route::get('/create','CouponsController@create')->name('create');
+       Route::post('/','CouponsController@store')->name('store');
 
-    Route::get('/user', 'UsersController@index')->name('user');
+    });
 
 
     Route::prefix('products')->name('products.')->group(function (){
@@ -37,6 +54,8 @@ Route::middleware('auth')->group(function() {
         Route::get('/{id}/edit', 'CategoriesController@edit')->name('edit');
         Route::patch('/{id}', 'CategoriesController@update')->name('update');
     });
+
+
 
 
 });

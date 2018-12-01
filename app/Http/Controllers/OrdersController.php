@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Order;
+use App\OrderProduct;
+use App\Product;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 class OrdersController extends Controller
 {
@@ -14,6 +18,12 @@ class OrdersController extends Controller
     public function index()
     {
         //
+        $orders = Order::paginate(10);
+        $data = [
+            'orders'=>$orders,
+        ];
+        //
+        return View('orders.index',$data);
     }
 
     /**
@@ -45,7 +55,13 @@ class OrdersController extends Controller
      */
     public function show($id)
     {
-        //
+
+        $order_products = OrderProduct::where('order_id','=',$id)->paginate(10);
+        $data =[
+            'order_products' => $order_products
+        ];
+        return View('orders.show',$data);
+
     }
 
     /**
@@ -56,7 +72,17 @@ class OrdersController extends Controller
      */
     public function edit($id)
     {
-        //
+        if (Order::find($id)->status == 'pay'){
+            Order::find($id)->update(['status'=>'stock']);
+        }
+        elseif (Order::find($id)->status == 'stock'){
+            Order::find($id)->update(['status'=>'finish']);
+        }
+        //for testing
+        elseif ((Order::find($id)->status == 'finish')){
+            Order::find($id)->update(['status'=>'finish']);
+        }
+        return redirect()->route('order.index');
     }
 
     /**
@@ -77,8 +103,9 @@ class OrdersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Order $order)
     {
-        //
+        $order->update(['status'=>'cancel']);
+        return redirect()->route('order.index');
     }
 }

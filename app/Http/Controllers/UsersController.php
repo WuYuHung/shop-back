@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 
 class UsersController extends Controller
@@ -13,7 +14,11 @@ class UsersController extends Controller
      */
     public function index()
     {
-        //
+        $users = User::orderBy('created_at','DESC')->paginate(10);
+        $data = [
+            'users'=>$users,
+        ];
+        return view('users.index',$data);
     }
 
     /**
@@ -23,7 +28,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        return view('users.create');
     }
 
     /**
@@ -34,7 +39,33 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate(
+            $request,
+            [
+                'email'=>'required|email|unique:users',
+                'password'=>'required|min:8',
+                'password_confirm' => 'required|same:password',
+                'name'=>'required',
+                'address'=>'required',
+                'phone'=>'required',
+                'birthdate'=>'required',
+
+            ]
+
+
+        );
+        User::create([
+            'email' => $request->email,
+            'password' => $request->password,
+            'name' => $request->name,
+            'address' => $request->address,
+            'phone' => $request->phone,
+            'birthdate' => $request->birthdate,
+            'permission' => false,
+            'photo_path' => $request->photo_path,
+            'active' => true,
+        ]);
+        return redirect()->route('user.index');
     }
 
     /**
@@ -45,7 +76,8 @@ class UsersController extends Controller
      */
     public function show($id)
     {
-        //
+
+
     }
 
     /**
@@ -57,6 +89,8 @@ class UsersController extends Controller
     public function edit($id)
     {
         //
+        User::find($id)->update(['active'=>true]);
+        return redirect()->route('user.index');
     }
 
     /**
@@ -65,11 +99,8 @@ class UsersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
+
+
 
     /**
      * Remove the specified resource from storage.
@@ -77,8 +108,9 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(User $user)
     {
-        //
+        $user->update(['active'=>false]);
+        return redirect()->route('user.index');
     }
 }
