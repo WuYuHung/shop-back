@@ -37,9 +37,16 @@ class CouponsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request$request)
     {
+        $this->validate(
+            $request,
+            [
+                'start_date'=> 'before_or_equal:end_date'
+            ]
+        );
         Coupon::create($request->all());
+
 
         return redirect()->route('coupon.index');
     }
