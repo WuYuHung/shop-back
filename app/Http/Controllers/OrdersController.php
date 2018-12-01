@@ -22,6 +22,7 @@ class OrdersController extends Controller
         $data = [
             'orders'=>$orders,
         ];
+        //
         return View('orders.index',$data);
     }
 
