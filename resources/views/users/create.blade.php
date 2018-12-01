@@ -61,8 +61,12 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="password">密碼</label>
-                                    <input type="text" class="form-control" id="password" name="password" placeholder="請輸入密碼" value="{{ old('password') }}" required />
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="請輸入密碼" value="{{ old('password') }}" required />
                                 </div>
+                                    <div class="form-group">
+                                        <label for="password">確認密碼</label>
+                                        <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="請輸入密碼" value="{{ old('password_confirm') }}" required />
+                                    </div>
                                 <div class="form-group">
                                     <label for="address">地址</label>
                                     <input type="text" class="form-control" id="address" name="address"  placeholder="請輸入地址" value="{{ old('address') }}" required />

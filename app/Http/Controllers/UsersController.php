@@ -39,7 +39,21 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate(
+            $request,
+            [
+                'email'=>'required|email|unique:users',
+                'password'=>'required|min:8',
+                'password_confirm' => 'required|same:password',
+                'name'=>'required',
+                'address'=>'required',
+                'phone'=>'required',
+                'birthdate'=>'required',
+
+            ]
+
+
+        );
         User::create([
             'email' => $request->email,
             'password' => $request->password,

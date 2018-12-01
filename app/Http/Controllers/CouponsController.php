@@ -42,7 +42,9 @@ class CouponsController extends Controller
         $this->validate(
             $request,
             [
-                'start_date'=> 'before_or_equal:end_date'
+                'code' => 'required|min:8|max:8',
+                'start_date'=> 'before_or_equal:end_date',
+                'description'=>'required'
             ]
         );
         Coupon::create($request->all());
