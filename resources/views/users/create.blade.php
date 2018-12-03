@@ -24,6 +24,7 @@
               -------------------------->
             <div class="row">
                 <!-- .col -->
+
                 <div class="col-md-12">
                     <!-- general form elements -->
 
@@ -32,7 +33,8 @@
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <form role="form" action="{{ route('user.index') }}" method="post">
+
+                        <form role="form" class="forms-sample" action="{{ route('user.index') }}" method="post">
 
                             @csrf
 
@@ -73,21 +75,21 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">電話</label>
-                                    <input class="form-control" id="phone" name="phone" placeholder="請輸入電話" required />{{ old('phone') }}
+                                    <input class="form-control" id="phone" name="phone" placeholder="請輸入電話" required value="{{ old('phone') }}"/>
                                 </div>
                                 <div class="form-group">
                                     <label for="birthdate">生日日期</label>
-                                    <input class="form-control" type="date" id="birthdate"  name="birthdate" max="{{\Carbon\Carbon::now()->toDateString()}}">{{ old('birthdate') }}
+                                    <input class="form-control" type="date" id="birthdate"  name="birthdate" max="{{\Carbon\Carbon::now()->toDateString()}}" value="{{ old('birthdate') }}">
                                 </div>
                                 <div class="form-group">
                                     <label for="photo_path">photo</label>
-                                    <input class="form-control" id="photo_path" name="photo_path" placeholder="test">{{ old('photo_path') }}
+                                    <input class="form-control" id="photo_path" name="photo_path" placeholder="test" value="{{ old('photo_path') }}">
                                 </div>
                             <!-- /.box-body -->
 
                             <div class="box-footer text-right">
-                                <a class="btn btn-link" href="{{route('user.index')}}">取消</a>
                                 <button type="submit" class="btn btn-primary">新增</button>
+                                <a class="btn btn-danger" href="{{route('user.index')}}">取消</a>
                             </div>
 
                     </div>

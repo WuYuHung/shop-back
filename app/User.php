@@ -12,6 +12,9 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 class User extends Authenticatable implements JWTSubject
 
 {
+
+    use \Illuminate\Auth\Passwords\CanResetPassword,\Illuminate\Foundation\Auth\Access\Authorizable;
+    use Notifiable;
     protected  $table = 'users';
     //
     protected  $fillable = [

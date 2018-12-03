@@ -40,6 +40,7 @@ Route::get('/users', 'Api\UsersController@index');
 Route::get('/user/{id}','Api\UsersController@show');
 Route::get('/user/{id}/orders','Api\UsersController@allorders');
 
+
 Route::post('/user/{id}','Api\UsersController@edit');
 
 //category

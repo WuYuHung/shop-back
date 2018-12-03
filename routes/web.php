@@ -15,7 +15,7 @@ Route::get('/',function (){
     return redirect()->route('login');
 });
 
-Route::middleware('auth')->group(function() {
+Route::middleware('auth','adminAuth')->group(function() {
 
     Route::get('/index', 'Controller@index')->name('index');
     Route::prefix('user')->name('user.')->group(function(){
@@ -56,11 +56,16 @@ Route::middleware('auth')->group(function() {
     });
 
 
-
-
+    Route::get('/home', 'HomeController@index')->name('home');
 });
 
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('sendmail', function() {
+    $data = ['name' => 'Test'];
+    Mail::send('welcome', $data, function($message) {
+        $message->to('edward.0726@gmail.com')->subject('fuck');
+    });
+    return 'Your email has been sent successfully!';
+});

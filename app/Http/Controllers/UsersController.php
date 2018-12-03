@@ -51,8 +51,6 @@ class UsersController extends Controller
                 'birthdate'=>'required',
 
             ]
-
-
         );
         User::create([
             'email' => $request->email,

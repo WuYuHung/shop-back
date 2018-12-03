@@ -17,13 +17,10 @@
     <!-- inject:js -->
     <script src="{{asset('js/off-canvas.js')}}"></script>
     <script src="{{asset('js/misc.js')}}"></script>
-    @yield('script')
-    <!-- endinject -->
-    <!-- Custom js for this page-->
-    <!-- End custom js for this page-->
 
-    <!-- Custom Theme Style -->
-    <link href="{{asset('css/custom.min.css')}}" rel="stylesheet">
+    <script src="{{asset('js/file-upload.js')}}"></script>
+@yield('script')
+
 </head>
 
 <body>

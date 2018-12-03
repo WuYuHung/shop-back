@@ -13690,7 +13690,7 @@ input:focus {
         align-items: center;
         -webkit-justify-content: space-between;
         justify-content: space-between;
-        padding: 0.4rem 1.4rem;
+        padding: 0.6rem 1.4rem;
         white-space: nowrap;
         color: #aeaeae;
         font-size: 0.8rem;
@@ -13715,7 +13715,7 @@ input:focus {
         font-family: "Open Sans", sans-serif;
         font-weight: 500; }
         .sidebar .nav .nav-item.nav-category .nav-link {
-          padding: 1.625rem 1.4rem 0.625rem;
+          padding: 2.625rem 1.4rem 0.625rem;
           color: #4fc04d; }
     .sidebar .nav.sub-menu {
       padding-left: 0; }
@@ -13995,8 +13995,8 @@ input:focus {
           .navbar .navbar-menu-wrapper .navbar-dropdown:before {
             right: 15px;
             left: auto; } }
-          .navbar.fixed-top + .page-body-wrapper {
-            padding-top: 58px; }
+  .navbar.fixed-top + .page-body-wrapper {
+    padding-top: 58px; }
 
 @media (max-width: 991px) {
   .navbar {
