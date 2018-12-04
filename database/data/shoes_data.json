@@ -1,0 +1,5732 @@
+[
+  {
+    "name": "Nike Air VaporMax Run Utility",
+    "category_id": 1,
+    "price": 4200,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit 2",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit 2",
+    "category_id": 1,
+    "price": 4300,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07",
+    "category_id": 1,
+    "price": 4800,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07",
+    "category_id": 1,
+    "price": 4100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8 Utility",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8 Utility",
+    "category_id": 1,
+    "price": 4100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 10 Retro",
+    "category_id": 1,
+    "price": 6300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 10 Retro",
+    "category_id": 1,
+    "price": 6100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike M2K Tekno",
+    "category_id": 1,
+    "price": 4200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike M2K Tekno",
+    "category_id": 1,
+    "price": 6500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 1,
+    "price": 5300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 1,
+    "price": 4500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Epic React Flyknit",
+    "category_id": 1,
+    "price": 6200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Epic React Flyknit",
+    "category_id": 1,
+    "price": 4400,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 QS",
+    "category_id": 1,
+    "price": 4600,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 QS",
+    "category_id": 1,
+    "price": 5600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 1 NBA Low (Chicago Bulls)",
+    "category_id": 1,
+    "price": 6100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 1 NBA Low (Chicago Bulls)",
+    "category_id": 1,
+    "price": 3100,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 1,
+    "price": 4800,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 1,
+    "price": 3400,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Zoom Fly Flyknit",
+    "category_id": 1,
+    "price": 6400,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Zoom Fly Flyknit",
+    "category_id": 1,
+    "price": 4100,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 1,
+    "price": 3600,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 1,
+    "price": 3300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Foamposite Pro",
+    "category_id": 1,
+    "price": 5200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Foamposite Pro",
+    "category_id": 1,
+    "price": 3100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Jordan \"Why Not?\" Zer0.1 Chaos PF",
+    "category_id": 1,
+    "price": 6500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Jordan \"Why Not?\" Zer0.1 Chaos PF",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 1,
+    "price": 3100,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 1,
+    "price": 5400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97 Premium",
+    "category_id": 1,
+    "price": 5000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97 Premium",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 1,
+    "price": 3000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 1,
+    "price": 6000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97 Ultra '17",
+    "category_id": 1,
+    "price": 6200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97 Ultra '17",
+    "category_id": 1,
+    "price": 6000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97 QS",
+    "category_id": 1,
+    "price": 3300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 97 QS",
+    "category_id": 1,
+    "price": 3800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Mid '07",
+    "category_id": 1,
+    "price": 3400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Mid '07",
+    "category_id": 1,
+    "price": 6100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Monarch IV",
+    "category_id": 1,
+    "price": 4600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Monarch IV",
+    "category_id": 1,
+    "price": 6000,
+    "description": "生活風格/健身鞋"
+  },
+  {
+    "name": "Nike Free RN Flyknit 2018",
+    "category_id": 1,
+    "price": 6000,
+    "description": "生活風格/健身鞋"
+  },
+  {
+    "name": "Nike Free RN Flyknit 2018",
+    "category_id": 1,
+    "price": 5300,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Metcon 4",
+    "category_id": 1,
+    "price": 3200,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Metcon 4",
+    "category_id": 1,
+    "price": 4100,
+    "description": "男款交叉訓練/重量訓練鞋"
+  },
+  {
+    "name": "Nike Zoom Pegasus Turbo",
+    "category_id": 1,
+    "price": 5200,
+    "description": "男款交叉訓練/重量訓練鞋"
+  },
+  {
+    "name": "Nike Zoom Pegasus Turbo",
+    "category_id": 1,
+    "price": 3400,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Kyrie 4 Day of the Dead",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Kyrie 4 Day of the Dead",
+    "category_id": 1,
+    "price": 6300,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Kobe 1 Protro",
+    "category_id": 1,
+    "price": 5500,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Kobe 1 Protro",
+    "category_id": 1,
+    "price": 6700,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 1,
+    "price": 5000,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 1,
+    "price": 3600,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Presto iD",
+    "category_id": 1,
+    "price": 6200,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Presto iD",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 6 Retro",
+    "category_id": 1,
+    "price": 5100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 6 Retro",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan Retro 8",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan Retro 8",
+    "category_id": 1,
+    "price": 4400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SF Air Force 1 High",
+    "category_id": 1,
+    "price": 3200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SF Air Force 1 High",
+    "category_id": 1,
+    "price": 4000,
+    "description": "男靴"
+  },
+  {
+    "name": "Air Jordan 13 Retro",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男靴"
+  },
+  {
+    "name": "Air Jordan 13 Retro",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Odyssey React",
+    "category_id": 1,
+    "price": 4800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Odyssey React",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Benassi",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Nike Benassi",
+    "category_id": 1,
+    "price": 4500,
+    "description": "拖鞋"
+  },
+  {
+    "name": "Nike Benassi Just Do It Textile SE",
+    "category_id": 1,
+    "price": 3100,
+    "description": "拖鞋"
+  },
+  {
+    "name": "Nike Benassi Just Do It Textile SE",
+    "category_id": 1,
+    "price": 4500,
+    "description": "男款涼鞋"
+  },
+  {
+    "name": "Nike Kawa Shower",
+    "category_id": 1,
+    "price": 6200,
+    "description": "男款涼鞋"
+  },
+  {
+    "name": "Nike Kawa Shower",
+    "category_id": 1,
+    "price": 3000,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike Benassi NBA",
+    "category_id": 1,
+    "price": 3500,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike Benassi NBA",
+    "category_id": 1,
+    "price": 5300,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike Air Max 270 Bowfin",
+    "category_id": 1,
+    "price": 5200,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike Air Max 270 Bowfin",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Deluxe",
+    "category_id": 1,
+    "price": 5600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Deluxe",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax 95",
+    "category_id": 1,
+    "price": 7000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax 95",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Deluxe",
+    "category_id": 1,
+    "price": 6300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Deluxe",
+    "category_id": 1,
+    "price": 3700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike EXP-X14 QS",
+    "category_id": 1,
+    "price": 5400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike EXP-X14 QS",
+    "category_id": 1,
+    "price": 3000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Hyperdunk X Low",
+    "category_id": 1,
+    "price": 4200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Hyperdunk X Low",
+    "category_id": 1,
+    "price": 4000,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Air Jordan 12 Retro",
+    "category_id": 1,
+    "price": 5000,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Air Jordan 12 Retro",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 1,
+    "price": 4600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 1,
+    "price": 4100,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Nike Air Max 95 OG",
+    "category_id": 1,
+    "price": 3100,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Nike Air Max 95 OG",
+    "category_id": 1,
+    "price": 4800,
+    "description": "鞋款"
+  },
+  {
+    "name": "Kobe AD",
+    "category_id": 1,
+    "price": 6700,
+    "description": "鞋款"
+  },
+  {
+    "name": "Kobe AD",
+    "category_id": 1,
+    "price": 4800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SB Dunk Elite Low x Medicom",
+    "category_id": 1,
+    "price": 6400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SB Dunk Elite Low x Medicom",
+    "category_id": 1,
+    "price": 6800,
+    "description": "男款滑板鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Low Retro QS",
+    "category_id": 1,
+    "price": 5300,
+    "description": "男款滑板鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Low Retro QS",
+    "category_id": 1,
+    "price": 5700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 1,
+    "price": 6000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 1,
+    "price": 5700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Span II SE",
+    "category_id": 1,
+    "price": 5700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Span II SE",
+    "category_id": 1,
+    "price": 3500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Presto Fly JDI",
+    "category_id": 1,
+    "price": 3800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Presto Fly JDI",
+    "category_id": 1,
+    "price": 3400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike EXP-X14",
+    "category_id": 1,
+    "price": 5500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike EXP-X14",
+    "category_id": 1,
+    "price": 5300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Penny",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Penny",
+    "category_id": 1,
+    "price": 4400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Zoom KD11 EP",
+    "category_id": 1,
+    "price": 5400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Zoom KD11 EP",
+    "category_id": 1,
+    "price": 5600,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP Fast",
+    "category_id": 1,
+    "price": 4900,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP Fast",
+    "category_id": 1,
+    "price": 6000,
+    "description": "中性跑鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 1,
+    "price": 5100,
+    "description": "中性跑鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 1,
+    "price": 5200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Free x Metcon",
+    "category_id": 1,
+    "price": 5700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Free x Metcon",
+    "category_id": 1,
+    "price": 3300,
+    "description": "健身/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Mamba Rage",
+    "category_id": 1,
+    "price": 4200,
+    "description": "健身/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Mamba Rage",
+    "category_id": 1,
+    "price": 6300,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Kyrie 4 EP",
+    "category_id": 1,
+    "price": 6900,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Kyrie 4 EP",
+    "category_id": 1,
+    "price": 5200,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "LeBron Soldier 12",
+    "category_id": 1,
+    "price": 6500,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "LeBron Soldier 12",
+    "category_id": 1,
+    "price": 5600,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 1 Premium",
+    "category_id": 1,
+    "price": 4000,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 1 Premium",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 1 Print",
+    "category_id": 1,
+    "price": 6200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 1 Print",
+    "category_id": 1,
+    "price": 3600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 1",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 1",
+    "category_id": 1,
+    "price": 4100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Solay",
+    "category_id": 1,
+    "price": 4300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Solay",
+    "category_id": 1,
+    "price": 5100,
+    "description": "男款夾腳拖鞋"
+  },
+  {
+    "name": "Jordan Hydro 7",
+    "category_id": 1,
+    "price": 4300,
+    "description": "男款夾腳拖鞋"
+  },
+  {
+    "name": "Jordan Hydro 7",
+    "category_id": 1,
+    "price": 5400,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike SB Portmore II Solarsoft Slip-on",
+    "category_id": 1,
+    "price": 4600,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike SB Portmore II Solarsoft Slip-on",
+    "category_id": 1,
+    "price": 6900,
+    "description": "男款滑板鞋"
+  },
+  {
+    "name": "Nike Air Max Plus",
+    "category_id": 1,
+    "price": 5600,
+    "description": "男款滑板鞋"
+  },
+  {
+    "name": "Nike Air Max Plus",
+    "category_id": 1,
+    "price": 4200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Vortex",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Vortex",
+    "category_id": 1,
+    "price": 6000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Vandal High Supreme",
+    "category_id": 1,
+    "price": 5500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Vandal High Supreme",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SF Air Force 1 Mid",
+    "category_id": 1,
+    "price": 3200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SF Air Force 1 Mid",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air More Money",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air More Money",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Print",
+    "category_id": 1,
+    "price": 3000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Print",
+    "category_id": 1,
+    "price": 6400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Moc 2",
+    "category_id": 1,
+    "price": 4300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Moc 2",
+    "category_id": 1,
+    "price": 6600,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax 97",
+    "category_id": 1,
+    "price": 5000,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax 97",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 95 Premium",
+    "category_id": 1,
+    "price": 6800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 95 Premium",
+    "category_id": 1,
+    "price": 4400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Mercurial Vapor 360 Elite FG",
+    "category_id": 1,
+    "price": 5100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Mercurial Vapor 360 Elite FG",
+    "category_id": 1,
+    "price": 6600,
+    "description": "天然偏硬草地英式足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 11 Retro Low",
+    "category_id": 1,
+    "price": 5100,
+    "description": "天然偏硬草地英式足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 11 Retro Low",
+    "category_id": 1,
+    "price": 5000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Plus",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Plus",
+    "category_id": 1,
+    "price": 4300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 270 Flyknit",
+    "category_id": 1,
+    "price": 5000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 270 Flyknit",
+    "category_id": 1,
+    "price": 5500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 270",
+    "category_id": 1,
+    "price": 4400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Force 270",
+    "category_id": 1,
+    "price": 3000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Nylon",
+    "category_id": 1,
+    "price": 5700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Nylon",
+    "category_id": 1,
+    "price": 4800,
+    "description": "中性鞋款"
+  },
+  {
+    "name": "PG 2",
+    "category_id": 1,
+    "price": 3500,
+    "description": "中性鞋款"
+  },
+  {
+    "name": "PG 2",
+    "category_id": 1,
+    "price": 5200,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 97 Plus",
+    "category_id": 1,
+    "price": 6900,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 97 Plus",
+    "category_id": 1,
+    "price": 5000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Benassi JDI Printed",
+    "category_id": 1,
+    "price": 5100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Benassi JDI Printed",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Essential",
+    "category_id": 1,
+    "price": 4100,
+    "description": "男款拖鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Essential",
+    "category_id": 1,
+    "price": 5500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Essential",
+    "category_id": 1,
+    "price": 3600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Essential",
+    "category_id": 1,
+    "price": 6300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Plus 97",
+    "category_id": 1,
+    "price": 5500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Max Plus 97",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男鞋"
+  },
+  {
+    "name": "LeBron Soldier 12 SFG",
+    "category_id": 1,
+    "price": 4800,
+    "description": "男鞋"
+  },
+  {
+    "name": "LeBron Soldier 12 SFG",
+    "category_id": 1,
+    "price": 5200,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Vomero 13",
+    "category_id": 1,
+    "price": 3600,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Vomero 13",
+    "category_id": 1,
+    "price": 4600,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Flyknit",
+    "category_id": 1,
+    "price": 4600,
+    "description": "男款跑鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Flyknit",
+    "category_id": 1,
+    "price": 3000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High OG \"Orange\"",
+    "category_id": 1,
+    "price": 5600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High OG \"Orange\"",
+    "category_id": 1,
+    "price": 3300,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Mercurial Superfly 360 Elite CR7 FG",
+    "category_id": 1,
+    "price": 6100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Mercurial Superfly 360 Elite CR7 FG",
+    "category_id": 1,
+    "price": 4500,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Mercurial Superfly 360 Elite FG",
+    "category_id": 1,
+    "price": 6900,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Mercurial Superfly 360 Elite FG",
+    "category_id": 1,
+    "price": 6600,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Hypervenom III Elite Dynamic Fit FG",
+    "category_id": 1,
+    "price": 6000,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Hypervenom III Elite Dynamic Fit FG",
+    "category_id": 1,
+    "price": 3500,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Elite Dynamic Fit FG",
+    "category_id": 1,
+    "price": 7000,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Elite Dynamic Fit FG",
+    "category_id": 1,
+    "price": 6400,
+    "description": "天然偏硬草地英式足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Elite Dynamic Fit Special Edition FG",
+    "category_id": 1,
+    "price": 5600,
+    "description": "天然偏硬草地英式足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Elite Dynamic Fit Special Edition FG",
+    "category_id": 1,
+    "price": 4000,
+    "description": "天然偏硬草地足球釘鞋"
+  },
+  {
+    "name": "Nike Mercurial Vapor XII Elite FG",
+    "category_id": 1,
+    "price": 5700,
+    "description": "天然偏硬草地足球釘鞋"
+  },
+  {
+    "name": "Nike Mercurial Vapor XII Elite FG",
+    "category_id": 1,
+    "price": 6900,
+    "description": "天然偏硬草地足球釘鞋"
+  },
+  {
+    "name": "Nike Tiempo Legend VII Elite FG",
+    "category_id": 1,
+    "price": 3600,
+    "description": "天然偏硬草地足球釘鞋"
+  },
+  {
+    "name": "Nike Tiempo Legend VII Elite FG",
+    "category_id": 1,
+    "price": 6600,
+    "description": "天然偏硬草地英式足球釘鞋"
+  },
+  {
+    "name": "Nike Air Foamposite One",
+    "category_id": 1,
+    "price": 3200,
+    "description": "天然偏硬草地英式足球釘鞋"
+  },
+  {
+    "name": "Nike Air Foamposite One",
+    "category_id": 1,
+    "price": 3700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 18 Retro",
+    "category_id": 1,
+    "price": 5400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 18 Retro",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Utility",
+    "category_id": 1,
+    "price": 5500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Utility",
+    "category_id": 1,
+    "price": 5700,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax Premier Flyknit",
+    "category_id": 1,
+    "price": 5700,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax Premier Flyknit",
+    "category_id": 1,
+    "price": 5200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 11 Retro",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 11 Retro",
+    "category_id": 1,
+    "price": 5400,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan XXXIII PF",
+    "category_id": 1,
+    "price": 5800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan XXXIII PF",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Presto Mid SP x Acronym",
+    "category_id": 1,
+    "price": 3600,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Presto Mid SP x Acronym",
+    "category_id": 1,
+    "price": 4800,
+    "description": "男鞋"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 1,
+    "price": 7000,
+    "description": "男鞋"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 1,
+    "price": 3300,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit 2 NRG",
+    "category_id": 1,
+    "price": 5400,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit 2 NRG",
+    "category_id": 1,
+    "price": 3800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike x Kim Jones Air Max 360 High",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike x Kim Jones Air Max 360 High",
+    "category_id": 1,
+    "price": 4000,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike x Gyakusou Zoom Fly",
+    "category_id": 1,
+    "price": 6900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike x Gyakusou Zoom Fly",
+    "category_id": 1,
+    "price": 3700,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Air Jordan 5 Retro",
+    "category_id": 1,
+    "price": 3100,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Air Jordan 5 Retro",
+    "category_id": 1,
+    "price": 4900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SF Air Force 1 Mid Premium",
+    "category_id": 1,
+    "price": 4700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike SF Air Force 1 Mid Premium",
+    "category_id": 1,
+    "price": 6700,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike ACG Ruckle Ridge",
+    "category_id": 1,
+    "price": 3600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike ACG Ruckle Ridge",
+    "category_id": 1,
+    "price": 4500,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 1 Moto",
+    "category_id": 1,
+    "price": 4800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Air Jordan 1 Moto",
+    "category_id": 1,
+    "price": 3600,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Zoom Generation QS",
+    "category_id": 1,
+    "price": 6100,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Air Zoom Generation QS",
+    "category_id": 1,
+    "price": 6200,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 97/BW",
+    "category_id": 1,
+    "price": 6600,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 97/BW",
+    "category_id": 1,
+    "price": 3900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Hypervenom III Pro Dynamic Fit FG",
+    "category_id": 1,
+    "price": 6800,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Hypervenom III Pro Dynamic Fit FG",
+    "category_id": 1,
+    "price": 5000,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Air Max 95 SE",
+    "category_id": 1,
+    "price": 7000,
+    "description": "硬地足球釘鞋"
+  },
+  {
+    "name": "Nike Air Max 95 SE",
+    "category_id": 1,
+    "price": 5900,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Rise React Flyknit LMTD",
+    "category_id": 1,
+    "price": 3200,
+    "description": "男鞋"
+  },
+  {
+    "name": "Nike Rise React Flyknit LMTD",
+    "category_id": 1,
+    "price": 4000,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 2,
+    "price": 3900,
+    "description": "女款圖案跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Floral",
+    "category_id": 2,
+    "price": 5900,
+    "description": "女款圖案跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Floral",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Zoom Pegasus Turbo XX",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Zoom Pegasus Turbo XX",
+    "category_id": 2,
+    "price": 5100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Jester XX Print",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Jester XX Print",
+    "category_id": 2,
+    "price": 7000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 2,
+    "price": 5900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 2,
+    "price": 6000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Sage Low",
+    "category_id": 2,
+    "price": 4200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Sage Low",
+    "category_id": 2,
+    "price": 5400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit 2 Metallic",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit 2 Metallic",
+    "category_id": 2,
+    "price": 4800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 2,
+    "price": 4200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Pegasus Turbo",
+    "category_id": 2,
+    "price": 6400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Pegasus Turbo",
+    "category_id": 2,
+    "price": 7000,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Epic React Flyknit",
+    "category_id": 2,
+    "price": 6300,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Epic React Flyknit",
+    "category_id": 2,
+    "price": 3100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Epic React Flyknit Metallic Premium",
+    "category_id": 2,
+    "price": 4800,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Epic React Flyknit Metallic Premium",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 Metallic",
+    "category_id": 2,
+    "price": 5300,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 Metallic",
+    "category_id": 2,
+    "price": 4800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 High Utility",
+    "category_id": 2,
+    "price": 4000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 High Utility",
+    "category_id": 2,
+    "price": 5700,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Sage High",
+    "category_id": 2,
+    "price": 4200,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Sage High",
+    "category_id": 2,
+    "price": 5400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97 SE Metallic",
+    "category_id": 2,
+    "price": 4500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97 SE Metallic",
+    "category_id": 2,
+    "price": 5400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Cortez SE",
+    "category_id": 2,
+    "price": 6900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Cortez SE",
+    "category_id": 2,
+    "price": 4700,
+    "description": "女鞋"
+  },
+  {
+    "name": "NikeCourt Royale AC",
+    "category_id": 2,
+    "price": 4200,
+    "description": "女鞋"
+  },
+  {
+    "name": "NikeCourt Royale AC",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly Flyknit",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly Flyknit",
+    "category_id": 2,
+    "price": 3300,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free TR 8 Print",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free TR 8 Print",
+    "category_id": 2,
+    "price": 4300,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 2,
+    "price": 5800,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女款圖案跑鞋"
+  },
+  {
+    "name": "Air Jordan 1 Rebel XX Utility",
+    "category_id": 2,
+    "price": 6000,
+    "description": "女款圖案跑鞋"
+  },
+  {
+    "name": "Air Jordan 1 Rebel XX Utility",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Jester XX Utility Pack",
+    "category_id": 2,
+    "price": 6400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Jester XX Utility Pack",
+    "category_id": 2,
+    "price": 4500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Premium Utility",
+    "category_id": 2,
+    "price": 3600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Premium Utility",
+    "category_id": 2,
+    "price": 6300,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Rebel XX",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Rebel XX",
+    "category_id": 2,
+    "price": 6500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Premium",
+    "category_id": 2,
+    "price": 4300,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Premium",
+    "category_id": 2,
+    "price": 5200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 High Zip",
+    "category_id": 2,
+    "price": 5400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 High Zip",
+    "category_id": 2,
+    "price": 5100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Metcon 4 Metallic",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Metcon 4 Metallic",
+    "category_id": 2,
+    "price": 5800,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3 Metallic",
+    "category_id": 2,
+    "price": 3000,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3 Metallic",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free TR 8 Metallic",
+    "category_id": 2,
+    "price": 5200,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free TR 8 Metallic",
+    "category_id": 2,
+    "price": 5800,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2 Metallic",
+    "category_id": 2,
+    "price": 6900,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2 Metallic",
+    "category_id": 2,
+    "price": 4500,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Metcon 4",
+    "category_id": 2,
+    "price": 3200,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Metcon 4",
+    "category_id": 2,
+    "price": 7000,
+    "description": "女款交叉訓練/重量訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Metallic",
+    "category_id": 2,
+    "price": 5200,
+    "description": "女款交叉訓練/重量訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Metallic",
+    "category_id": 2,
+    "price": 4700,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike React Element 55",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike React Element 55",
+    "category_id": 2,
+    "price": 6200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97 LX Overbranded",
+    "category_id": 2,
+    "price": 4600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97 LX Overbranded",
+    "category_id": 2,
+    "price": 6500,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air Max 90",
+    "category_id": 2,
+    "price": 3900,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Air Max 90",
+    "category_id": 2,
+    "price": 5800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Run Utility",
+    "category_id": 2,
+    "price": 3600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Run Utility",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Max 95 LX",
+    "category_id": 2,
+    "price": 5500,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Max 95 LX",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro Low Lifted",
+    "category_id": 2,
+    "price": 3200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro Low Lifted",
+    "category_id": 2,
+    "price": 4800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 2,
+    "price": 5000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez",
+    "category_id": 2,
+    "price": 5200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Leather",
+    "category_id": 2,
+    "price": 3000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Leather",
+    "category_id": 2,
+    "price": 4400,
+    "description": "女鞋"
+  },
+  {
+    "name": "NikeCourt Royale SL",
+    "category_id": 2,
+    "price": 4300,
+    "description": "女鞋"
+  },
+  {
+    "name": "NikeCourt Royale SL",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Metcon 4 Champagne",
+    "category_id": 2,
+    "price": 6700,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Metcon 4 Champagne",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 SE Premium",
+    "category_id": 2,
+    "price": 3900,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 SE Premium",
+    "category_id": 2,
+    "price": 5400,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3 Champagne",
+    "category_id": 2,
+    "price": 3500,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3 Champagne",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2 Champagne",
+    "category_id": 2,
+    "price": 3800,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2 Champagne",
+    "category_id": 2,
+    "price": 3400,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free TR 8 Champagne",
+    "category_id": 2,
+    "price": 6000,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free TR 8 Champagne",
+    "category_id": 2,
+    "price": 6200,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Metallic",
+    "category_id": 2,
+    "price": 5000,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Metallic",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Premium",
+    "category_id": 2,
+    "price": 3900,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Premium",
+    "category_id": 2,
+    "price": 4000,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Shield Water-Repellent",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35 Shield Water-Repellent",
+    "category_id": 2,
+    "price": 6400,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike EXP-X14",
+    "category_id": 2,
+    "price": 3200,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike EXP-X14",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro Low NS",
+    "category_id": 2,
+    "price": 5500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro Low NS",
+    "category_id": 2,
+    "price": 3100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 SE Suede",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 SE Suede",
+    "category_id": 2,
+    "price": 5100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 2,
+    "price": 4500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Premium",
+    "category_id": 2,
+    "price": 5200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Premium",
+    "category_id": 2,
+    "price": 4600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 2,
+    "price": 6500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Internationalist Premium",
+    "category_id": 2,
+    "price": 6500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Internationalist Premium",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 1 LX",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 1 LX",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Moc 2",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Moc 2",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Rise React Flyknit LMTD",
+    "category_id": 2,
+    "price": 4200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Rise React Flyknit LMTD",
+    "category_id": 2,
+    "price": 4500,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 2,
+    "price": 6300,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 2,
+    "price": 5300,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Nike Blazer Mid Rebel",
+    "category_id": 2,
+    "price": 4000,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Nike Blazer Mid Rebel",
+    "category_id": 2,
+    "price": 3600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max Axis",
+    "category_id": 2,
+    "price": 5100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max Axis",
+    "category_id": 2,
+    "price": 3100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP Fast",
+    "category_id": 2,
+    "price": 5400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP Fast",
+    "category_id": 2,
+    "price": 4500,
+    "description": "中性跑鞋"
+  },
+  {
+    "name": "Nike Blazer Low Suede",
+    "category_id": 2,
+    "price": 5500,
+    "description": "中性跑鞋"
+  },
+  {
+    "name": "Nike Blazer Low Suede",
+    "category_id": 2,
+    "price": 6700,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07",
+    "category_id": 2,
+    "price": 4200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Mid '07",
+    "category_id": 2,
+    "price": 3100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Mid '07",
+    "category_id": 2,
+    "price": 5100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Pre-Love O.X.",
+    "category_id": 2,
+    "price": 3100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Pre-Love O.X.",
+    "category_id": 2,
+    "price": 3000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 2,
+    "price": 5800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly SP",
+    "category_id": 2,
+    "price": 5700,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Bella TR",
+    "category_id": 2,
+    "price": 4200,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Bella TR",
+    "category_id": 2,
+    "price": 6600,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 2,
+    "price": 4500,
+    "description": "女款訓練鞋"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 2,
+    "price": 6000,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3 LM",
+    "category_id": 2,
+    "price": 6600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3 LM",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Air Max 1 Premium",
+    "category_id": 2,
+    "price": 3300,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Air Max 1 Premium",
+    "category_id": 2,
+    "price": 3600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Premium",
+    "category_id": 2,
+    "price": 5200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 90 Premium",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Free TR8",
+    "category_id": 2,
+    "price": 5300,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Free TR8",
+    "category_id": 2,
+    "price": 4700,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Air Max 95 OG",
+    "category_id": 2,
+    "price": 3700,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Air Max 95 OG",
+    "category_id": 2,
+    "price": 6500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly",
+    "category_id": 2,
+    "price": 3200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Zoom Fly",
+    "category_id": 2,
+    "price": 4500,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free TR 8 LM",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free TR 8 LM",
+    "category_id": 2,
+    "price": 3800,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Air Bella TR Premium",
+    "category_id": 2,
+    "price": 3300,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike Air Bella TR Premium",
+    "category_id": 2,
+    "price": 3400,
+    "description": "女款健身/訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2",
+    "category_id": 2,
+    "price": 6000,
+    "description": "女款健身/訓練鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2",
+    "category_id": 2,
+    "price": 3700,
+    "description": "女款健身/訓練/拳擊鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2 LM",
+    "category_id": 2,
+    "price": 6100,
+    "description": "女款健身/訓練/拳擊鞋"
+  },
+  {
+    "name": "Nike Air Zoom Fearless Flyknit 2 LM",
+    "category_id": 2,
+    "price": 5400,
+    "description": "女款健身/訓練/拳擊鞋"
+  },
+  {
+    "name": "Nike Free RN Flyknit 2018",
+    "category_id": 2,
+    "price": 4600,
+    "description": "女款健身/訓練/拳擊鞋"
+  },
+  {
+    "name": "Nike Free RN Flyknit 2018",
+    "category_id": 2,
+    "price": 5000,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Light II",
+    "category_id": 2,
+    "price": 5500,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Light II",
+    "category_id": 2,
+    "price": 6600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3",
+    "category_id": 2,
+    "price": 4900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Free TR Flyknit 3",
+    "category_id": 2,
+    "price": 4900,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike AF1 Jester XX SE",
+    "category_id": 2,
+    "price": 3800,
+    "description": "女款健身/HIIT/交叉訓練鞋"
+  },
+  {
+    "name": "Nike AF1 Jester XX SE",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Free RN Motion Flyknit 2018",
+    "category_id": 2,
+    "price": 3000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Free RN Motion Flyknit 2018",
+    "category_id": 2,
+    "price": 6300,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free RN Commuter 2018",
+    "category_id": 2,
+    "price": 6500,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Free RN Commuter 2018",
+    "category_id": 2,
+    "price": 3600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Blazer Low LE",
+    "category_id": 2,
+    "price": 3400,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Blazer Low LE",
+    "category_id": 2,
+    "price": 5800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro SE",
+    "category_id": 2,
+    "price": 4300,
+    "description": "女鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro SE",
+    "category_id": 2,
+    "price": 4900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax 97",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax 97",
+    "category_id": 2,
+    "price": 5900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 1-100",
+    "category_id": 2,
+    "price": 3900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 1-100",
+    "category_id": 2,
+    "price": 4000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Nylon",
+    "category_id": 2,
+    "price": 4300,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Classic Cortez Nylon",
+    "category_id": 2,
+    "price": 3300,
+    "description": "中性鞋款"
+  },
+  {
+    "name": "Nike Air Max 90",
+    "category_id": 2,
+    "price": 6800,
+    "description": "中性鞋款"
+  },
+  {
+    "name": "Nike Air Max 90",
+    "category_id": 2,
+    "price": 3200,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Benassi JDI Floral",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Benassi JDI Floral",
+    "category_id": 2,
+    "price": 3500,
+    "description": "女款拖鞋"
+  },
+  {
+    "name": "NikeCourt Royale Premium",
+    "category_id": 2,
+    "price": 3800,
+    "description": "女款拖鞋"
+  },
+  {
+    "name": "NikeCourt Royale Premium",
+    "category_id": 2,
+    "price": 6900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Utility",
+    "category_id": 2,
+    "price": 5700,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Utility",
+    "category_id": 2,
+    "price": 4300,
+    "description": "鞋款"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 2,
+    "price": 3800,
+    "description": "鞋款"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 2,
+    "price": 6400,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 2,
+    "price": 5900,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "LeBron 16",
+    "category_id": 2,
+    "price": 5200,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Moc 2",
+    "category_id": 2,
+    "price": 3600,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air VaporMax Flyknit Moc 2",
+    "category_id": 2,
+    "price": 5100,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike x Gyakusou Zoom Fly",
+    "category_id": 2,
+    "price": 3800,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike x Gyakusou Zoom Fly",
+    "category_id": 2,
+    "price": 4000,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Kobe 1 Protro",
+    "category_id": 2,
+    "price": 4300,
+    "description": "跑鞋"
+  },
+  {
+    "name": "Kobe 1 Protro",
+    "category_id": 2,
+    "price": 6500,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 270 Flyknit",
+    "category_id": 2,
+    "price": 6400,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 270 Flyknit",
+    "category_id": 2,
+    "price": 6600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Metcon DSX Flyknit 2",
+    "category_id": 2,
+    "price": 6400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Metcon DSX Flyknit 2",
+    "category_id": 2,
+    "price": 5900,
+    "description": "女款交叉訓練/重量訓練鞋"
+  },
+  {
+    "name": "Nike Air Max 95 OG",
+    "category_id": 2,
+    "price": 5600,
+    "description": "女款交叉訓練/重量訓練鞋"
+  },
+  {
+    "name": "Nike Air Max 95 OG",
+    "category_id": 2,
+    "price": 4000,
+    "description": "鞋款"
+  },
+  {
+    "name": "LeBron 15 Low",
+    "category_id": 2,
+    "price": 4000,
+    "description": "鞋款"
+  },
+  {
+    "name": "LeBron 15 Low",
+    "category_id": 2,
+    "price": 3800,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike AF1 Rebel XX",
+    "category_id": 2,
+    "price": 4100,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike AF1 Rebel XX",
+    "category_id": 2,
+    "price": 4100,
+    "description": "女鞋"
+  },
+  {
+    "name": "Jordan Super.Fly MVP PF",
+    "category_id": 2,
+    "price": 3400,
+    "description": "女鞋"
+  },
+  {
+    "name": "Jordan Super.Fly MVP PF",
+    "category_id": 2,
+    "price": 6600,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Vomero 13",
+    "category_id": 2,
+    "price": 5800,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Vomero 13",
+    "category_id": 2,
+    "price": 5100,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "LeBron Soldier 12 SFG",
+    "category_id": 2,
+    "price": 4600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "LeBron Soldier 12 SFG",
+    "category_id": 2,
+    "price": 7000,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Kyrie 4 Day of the Dead",
+    "category_id": 2,
+    "price": 3600,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Kyrie 4 Day of the Dead",
+    "category_id": 2,
+    "price": 3700,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Hyperdunk X",
+    "category_id": 2,
+    "price": 6500,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Hyperdunk X",
+    "category_id": 2,
+    "price": 3400,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Mariah Flyknit Racer",
+    "category_id": 2,
+    "price": 4000,
+    "description": "籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Mariah Flyknit Racer",
+    "category_id": 2,
+    "price": 3900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Jordan Ultra Fly 3",
+    "category_id": 2,
+    "price": 5000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Jordan Ultra Fly 3",
+    "category_id": 2,
+    "price": 4500,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Structure 22",
+    "category_id": 2,
+    "price": 4800,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Air Zoom Structure 22",
+    "category_id": 2,
+    "price": 6300,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Kyrie 4 (Team)",
+    "category_id": 2,
+    "price": 6800,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Kyrie 4 (Team)",
+    "category_id": 2,
+    "price": 3300,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Hyperdunk X Low",
+    "category_id": 2,
+    "price": 5900,
+    "description": "鞋款"
+  },
+  {
+    "name": "Nike Hyperdunk X Low",
+    "category_id": 2,
+    "price": 3900,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Odyssey React",
+    "category_id": 2,
+    "price": 6200,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Odyssey React",
+    "category_id": 2,
+    "price": 4600,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Kyrie Low EP",
+    "category_id": 2,
+    "price": 6700,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Kyrie Low EP",
+    "category_id": 2,
+    "price": 5900,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Zoom All Out Low 2",
+    "category_id": 2,
+    "price": 6700,
+    "description": "男款籃球鞋"
+  },
+  {
+    "name": "Nike Zoom All Out Low 2",
+    "category_id": 2,
+    "price": 6700,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 XX",
+    "category_id": 2,
+    "price": 3000,
+    "description": "女款跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 XX",
+    "category_id": 2,
+    "price": 5900,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max Sequent 3 Premium",
+    "category_id": 2,
+    "price": 6600,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max Sequent 3 Premium",
+    "category_id": 2,
+    "price": 7000,
+    "description": "女鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 3,
+    "price": 4700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 95",
+    "category_id": 3,
+    "price": 3500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 95",
+    "category_id": 3,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 3,
+    "price": 4400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 3,
+    "price": 5900,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 3,
+    "price": 3300,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 3,
+    "price": 6100,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Kyrie 4 Little Big Cats",
+    "category_id": 3,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Kyrie 4 Little Big Cats",
+    "category_id": 3,
+    "price": 6000,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "KD11 Little Big Cats",
+    "category_id": 3,
+    "price": 4200,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "KD11 Little Big Cats",
+    "category_id": 3,
+    "price": 4700,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "Nike Force 1 '18",
+    "category_id": 3,
+    "price": 6300,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "Nike Force 1 '18",
+    "category_id": 3,
+    "price": 3700,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Force 1 '18",
+    "category_id": 3,
+    "price": 6400,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Force 1 '18",
+    "category_id": 3,
+    "price": 5800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 6100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 7000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 3,
+    "price": 4600,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 3,
+    "price": 3500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan XXXII Low",
+    "category_id": 3,
+    "price": 5700,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan XXXII Low",
+    "category_id": 3,
+    "price": 4800,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Air Jordan 12 Retro Premium",
+    "category_id": 3,
+    "price": 4000,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Air Jordan 12 Retro Premium",
+    "category_id": 3,
+    "price": 5300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 3500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 6800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 3800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 3,
+    "price": 3700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 3,
+    "price": 4500,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Just Do It Premium",
+    "category_id": 3,
+    "price": 4600,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Just Do It Premium",
+    "category_id": 3,
+    "price": 5200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 3,
+    "price": 4100,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 3,
+    "price": 3700,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High OG",
+    "category_id": 3,
+    "price": 6400,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Air Jordan 1 Retro High OG",
+    "category_id": 3,
+    "price": 5600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 3,
+    "price": 5600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 3,
+    "price": 4600,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 6900,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 6400,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 5600,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 3300,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 4100,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 6200,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Viale",
+    "category_id": 3,
+    "price": 4400,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Viale",
+    "category_id": 3,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 14 Retro",
+    "category_id": 3,
+    "price": 5600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 14 Retro",
+    "category_id": 3,
+    "price": 3000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 EZ",
+    "category_id": 3,
+    "price": 5900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 EZ",
+    "category_id": 3,
+    "price": 6700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 3,
+    "price": 5200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 3,
+    "price": 5400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5400,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 7000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 5300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 3,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 3,
+    "price": 6900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Force 1",
+    "category_id": 3,
+    "price": 3700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Force 1",
+    "category_id": 3,
+    "price": 5400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 5200,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 4400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "LeBron 15",
+    "category_id": 3,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "LeBron 15",
+    "category_id": 3,
+    "price": 4200,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club Neymar Jr TF",
+    "category_id": 3,
+    "price": 6600,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club Neymar Jr TF",
+    "category_id": 3,
+    "price": 3000,
+    "description": "小/大童人工草地足球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6100,
+    "description": "小/大童人工草地足球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 5600,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 6500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 3700,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 5100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 4700,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 6500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 4700,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 5400,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 5800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 3,
+    "price": 6800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 3,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 3000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 6300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Flyknit",
+    "category_id": 3,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Retro High Flyknit",
+    "category_id": 3,
+    "price": 5300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 LV8",
+    "category_id": 3,
+    "price": 5800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 LV8",
+    "category_id": 3,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 6800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 5500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 5300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. Tiempo Legend VII Academy TF",
+    "category_id": 3,
+    "price": 4500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. Tiempo Legend VII Academy TF",
+    "category_id": 3,
+    "price": 3000,
+    "description": "小/大童人工草地足球鞋"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 3,
+    "price": 6100,
+    "description": "小/大童人工草地足球鞋"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 3,
+    "price": 5000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 12 Retro",
+    "category_id": 3,
+    "price": 4500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 12 Retro",
+    "category_id": 3,
+    "price": 5300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 3,
+    "price": 6000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 3000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 5800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. Phantom Vision Club Dynamic Fit MG",
+    "category_id": 3,
+    "price": 4100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. Phantom Vision Club Dynamic Fit MG",
+    "category_id": 3,
+    "price": 3800,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 3,
+    "price": 5500,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 3,
+    "price": 3400,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 3,
+    "price": 4700,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 3,
+    "price": 6700,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 3,
+    "price": 4300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 3,
+    "price": 6500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike MD Runner 2",
+    "category_id": 3,
+    "price": 3500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike MD Runner 2",
+    "category_id": 3,
+    "price": 3000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 3,
+    "price": 3100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 3,
+    "price": 6600,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Jr. Superfly VI Academy MG",
+    "category_id": 3,
+    "price": 3400,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Jr. Superfly VI Academy MG",
+    "category_id": 3,
+    "price": 4900,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 3,
+    "price": 6400,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Superfly VI Academy",
+    "category_id": 3,
+    "price": 3400,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Superfly VI Academy",
+    "category_id": 3,
+    "price": 5000,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Jr. Phantom Vision Club Dynamic Fit MG",
+    "category_id": 3,
+    "price": 4200,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Jr. Phantom Vision Club Dynamic Fit MG",
+    "category_id": 3,
+    "price": 6000,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club MG",
+    "category_id": 3,
+    "price": 5600,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club MG",
+    "category_id": 3,
+    "price": 6000,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club MG",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club MG",
+    "category_id": 3,
+    "price": 3100,
+    "description": "幼/小童多場地足球釘鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 High LV8 Sport NBA",
+    "category_id": 3,
+    "price": 4500,
+    "description": "幼/小童多場地足球釘鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 High LV8 Sport NBA",
+    "category_id": 3,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 3,
+    "price": 4000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 3,
+    "price": 4700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 3,
+    "price": 3200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 3,
+    "price": 7000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 5400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 3,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 3,
+    "price": 4400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 3,
+    "price": 3300,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 4100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 3,
+    "price": 3500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 3,
+    "price": 6800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 4900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 3400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike MD Runner 2",
+    "category_id": 3,
+    "price": 3300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike MD Runner 2",
+    "category_id": 3,
+    "price": 5200,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid",
+    "category_id": 3,
+    "price": 4200,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid",
+    "category_id": 3,
+    "price": 4900,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 5900,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 6600,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Waffle 1 Premium",
+    "category_id": 3,
+    "price": 4200,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Waffle 1 Premium",
+    "category_id": 3,
+    "price": 6400,
+    "description": "嬰兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1",
+    "category_id": 3,
+    "price": 5100,
+    "description": "嬰兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1",
+    "category_id": 3,
+    "price": 4800,
+    "description": "嬰兒靴款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6400,
+    "description": "嬰兒靴款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 4800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 3,
+    "price": 5000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 3,
+    "price": 3100,
+    "description": "小童鞋款 (10.5c-3y)"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 3,
+    "price": 6100,
+    "description": "小童鞋款 (10.5c-3y)"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 3,
+    "price": 3400,
+    "description": "嬰幼兒鞋款 (2c-10c)"
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8 Sport NBA",
+    "category_id": 3,
+    "price": 4800,
+    "description": "嬰幼兒鞋款 (2c-10c)"
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8 Sport NBA",
+    "category_id": 3,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Speed",
+    "category_id": 3,
+    "price": 3200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Speed",
+    "category_id": 3,
+    "price": 6000,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 3,
+    "price": 7000,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 3,
+    "price": 5800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 4100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 3,
+    "price": 5800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 3,
+    "price": 3200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 3,
+    "price": 5300,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 4300,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "CR7 Jr. Superfly 6 Academy MG",
+    "category_id": 3,
+    "price": 5200,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "CR7 Jr. Superfly 6 Academy MG",
+    "category_id": 3,
+    "price": 5300,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 1 Low",
+    "category_id": 3,
+    "price": 5800,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 1 Low",
+    "category_id": 3,
+    "price": 6800,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 3,
+    "price": 3900,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 3,
+    "price": 4600,
+    "description": "小/大童草地足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小/大童草地足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 3,
+    "price": 3200,
+    "description": "小童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 3,
+    "price": 3800,
+    "description": "小童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 3,
+    "price": 6600,
+    "description": "小童草地足球鞋"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3100,
+    "description": "小童草地足球鞋"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 6000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Lil' Swoosh",
+    "category_id": 3,
+    "price": 5000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Lil' Swoosh",
+    "category_id": 3,
+    "price": 7000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Lil' Swoosh",
+    "category_id": 3,
+    "price": 6800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Lil' Swoosh",
+    "category_id": 3,
+    "price": 6200,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club CR7 MG",
+    "category_id": 3,
+    "price": 5100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Jr. Mercurial Vapor XII Club CR7 MG",
+    "category_id": 3,
+    "price": 5400,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 3,
+    "price": 3000,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 3,
+    "price": 4700,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6400,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 3400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 6000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 5800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 5100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 4600,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 5200,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 6700,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 4300,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Downshifter 8",
+    "category_id": 3,
+    "price": 4600,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 4800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 3,
+    "price": 3500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Kawa",
+    "category_id": 3,
+    "price": 4800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Kawa",
+    "category_id": 3,
+    "price": 4300,
+    "description": "小/大童拖鞋"
+  },
+  {
+    "name": "Nike Sunray Adjust 4",
+    "category_id": 3,
+    "price": 3500,
+    "description": "小/大童拖鞋"
+  },
+  {
+    "name": "Nike Sunray Adjust 4",
+    "category_id": 3,
+    "price": 4600,
+    "description": "嬰幼兒涼鞋"
+  },
+  {
+    "name": "Nike Viale",
+    "category_id": 3,
+    "price": 6500,
+    "description": "嬰幼兒涼鞋"
+  },
+  {
+    "name": "Nike Viale",
+    "category_id": 3,
+    "price": 3900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Kawa",
+    "category_id": 3,
+    "price": 5400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Kawa",
+    "category_id": 3,
+    "price": 4100,
+    "description": "小/大童拖鞋"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 3700,
+    "description": "小/大童拖鞋"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 6700,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 6400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 6300,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Aqua Sock 360",
+    "category_id": 3,
+    "price": 3500,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Aqua Sock 360",
+    "category_id": 3,
+    "price": 4700,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 4800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 3,
+    "price": 5600,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Sunray Adjust 4",
+    "category_id": 3,
+    "price": 5500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Sunray Adjust 4",
+    "category_id": 3,
+    "price": 7000,
+    "description": "小/大童涼鞋"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 6600,
+    "description": "小/大童涼鞋"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 3,
+    "price": 4400,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 7000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 3,
+    "price": 5500,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 3,
+    "price": 6300,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 3,
+    "price": 6100,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 3,
+    "price": 6900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Sunray Protect 2",
+    "category_id": 3,
+    "price": 6500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Sunray Protect 2",
+    "category_id": 3,
+    "price": 4000,
+    "description": "嬰幼兒涼鞋"
+  },
+  {
+    "name": "Nike Sunray Protect 2",
+    "category_id": 3,
+    "price": 4400,
+    "description": "嬰幼兒涼鞋"
+  },
+  {
+    "name": "Nike Sunray Protect 2",
+    "category_id": 3,
+    "price": 6800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Kawa SE",
+    "category_id": 3,
+    "price": 5400,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 3800,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 4100,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 3400,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 6600,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 6600,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 3500,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 6100,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 3000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 3200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 6200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 EZ",
+    "category_id": 4,
+    "price": 5700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 EZ",
+    "category_id": 4,
+    "price": 6100,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 5900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 13 Retro Low",
+    "category_id": 4,
+    "price": 4000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 13 Retro Low",
+    "category_id": 4,
+    "price": 3200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 4,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Force 1",
+    "category_id": 4,
+    "price": 4000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Force 1",
+    "category_id": 4,
+    "price": 5300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 4700,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 5700,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 6900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 4200,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 5100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 4100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 4600,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Dynamo Free",
+    "category_id": 4,
+    "price": 4500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Kawa SE",
+    "category_id": 4,
+    "price": 3300,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Kawa SE",
+    "category_id": 4,
+    "price": 3900,
+    "description": "小/大童拖鞋"
+  },
+  {
+    "name": "Nike Sunray Adjust 4",
+    "category_id": 4,
+    "price": 5600,
+    "description": "小/大童拖鞋"
+  },
+  {
+    "name": "Nike Sunray Adjust 4",
+    "category_id": 4,
+    "price": 4100,
+    "description": "小/大童涼鞋"
+  },
+  {
+    "name": "Nike Sunray Protect 2",
+    "category_id": 4,
+    "price": 3700,
+    "description": "小/大童涼鞋"
+  },
+  {
+    "name": "Nike Sunray Protect 2",
+    "category_id": 4,
+    "price": 6500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 4,
+    "price": 5500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Star Runner",
+    "category_id": 4,
+    "price": 5800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 5400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4300,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 6800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max 90 Leather",
+    "category_id": 4,
+    "price": 4500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 4,
+    "price": 6300,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 4,
+    "price": 6700,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 4,
+    "price": 7000,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "category_id": 4,
+    "price": 4300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 12 Retro Premium",
+    "category_id": 4,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 12 Retro Premium",
+    "category_id": 4,
+    "price": 3700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air VaporMax",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 4,
+    "price": 4200,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 4,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 4,
+    "price": 4600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan 3 Retro",
+    "category_id": 4,
+    "price": 4100,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 4,
+    "price": 4400,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 4,
+    "price": 6200,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 4000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "category_id": 4,
+    "price": 4900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan XXXII Low",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan XXXII Low",
+    "category_id": 4,
+    "price": 3700,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 4,
+    "price": 6800,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Zoom KD11",
+    "category_id": 4,
+    "price": 6800,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 6100,
+    "description": "大童籃球鞋"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 3700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 5200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 3000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 4800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 6800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 7000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 5000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 3000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Low iD",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 3600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 3300,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 6100,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 3000,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 5000,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 6300,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 3200,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 5300,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 5400,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 4900,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 5500,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. Mercurial Superfly VI Academy MG iD",
+    "category_id": 4,
+    "price": 5900,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4200,
+    "description": "足球釘鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5100,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5100,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 3300,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4800,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5600,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5800,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5500,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5800,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6100,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5800,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 High LV8 Sport NBA",
+    "category_id": 4,
+    "price": 4000,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Nike Air Force 1 '07 High LV8 Sport NBA",
+    "category_id": 4,
+    "price": 3700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 95",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max 95",
+    "category_id": 4,
+    "price": 3100,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 5000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 3100,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 4600,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 6800,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 3100,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 7000,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 5800,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 6800,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 4900,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 6600,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Phantom Vision Academy Jr. MG iD",
+    "category_id": 4,
+    "price": 5100,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 14 Retro",
+    "category_id": 4,
+    "price": 3000,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 14 Retro",
+    "category_id": 4,
+    "price": 4500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 4500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 35",
+    "category_id": 4,
+    "price": 3000,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 4,
+    "price": 4300,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 4,
+    "price": 5600,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 4,
+    "price": 5100,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Future Flight",
+    "category_id": 4,
+    "price": 6000,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 4,
+    "price": 3900,
+    "description": "小/大童籃球鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 4,
+    "price": 7000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Just Do It Premium",
+    "category_id": 4,
+    "price": 4700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1 Just Do It Premium",
+    "category_id": 4,
+    "price": 6800,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4300,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5200,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 3700,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5100,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5900,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6200,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4900,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 3900,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6300,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5300,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 5500,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "CR7 Jr. Superfly 6 Academy MG",
+    "category_id": 4,
+    "price": 5100,
+    "description": "小童跑鞋"
+  },
+  {
+    "name": "CR7 Jr. Superfly 6 Academy MG",
+    "category_id": 4,
+    "price": 4300,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 12 Retro",
+    "category_id": 4,
+    "price": 6100,
+    "description": "大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Air Jordan 12 Retro",
+    "category_id": 4,
+    "price": 3500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 4,
+    "price": 5800,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 4,
+    "price": 4700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 4,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 4,
+    "price": 5600,
+    "description": "小童鞋款 (10.5c-3y)"
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8 Sport NBA",
+    "category_id": 4,
+    "price": 6600,
+    "description": "小童鞋款 (10.5c-3y)"
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8 Sport NBA",
+    "category_id": 4,
+    "price": 3500,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Speed",
+    "category_id": 4,
+    "price": 3400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Future Speed",
+    "category_id": 4,
+    "price": 6100,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 4,
+    "price": 6700,
+    "description": "小/大童跑鞋"
+  },
+  {
+    "name": "Nike Free RN 2018",
+    "category_id": 4,
+    "price": 5300,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 4,
+    "price": 3200,
+    "description": "大童跑鞋"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 4,
+    "price": 3600,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 4000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 4900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Low",
+    "category_id": 4,
+    "price": 5900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Low",
+    "category_id": 4,
+    "price": 6900,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 6200,
+    "description": "兒童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 4500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 4,
+    "price": 4100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "category_id": 4,
+    "price": 6200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 6400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 4000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. Superfly VI Academy MG",
+    "category_id": 4,
+    "price": 4600,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. Superfly VI Academy MG",
+    "category_id": 4,
+    "price": 6400,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Superfly VI Academy",
+    "category_id": 4,
+    "price": 7000,
+    "description": "小/大童多種場地足球釘鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Superfly VI Academy",
+    "category_id": 4,
+    "price": 6400,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 4,
+    "price": 5700,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Huarache Extreme",
+    "category_id": 4,
+    "price": 5900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4900,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6200,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 3800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 7000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 3600,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 6900,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Free RN 2018 iD",
+    "category_id": 4,
+    "price": 4000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 3000,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 3000,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 7000,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 3600,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 3600,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 3000,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 5200,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 3500,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 6000,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Waffle 1 iD",
+    "category_id": 4,
+    "price": 4900,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 4,
+    "price": 4100,
+    "description": "嬰幼兒靴款"
+  },
+  {
+    "name": "Nike Cortez Basic TXT SE",
+    "category_id": 4,
+    "price": 5400,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 4,
+    "price": 7000,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 4,
+    "price": 3100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 5100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 4100,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "KD11 Little Big Cats",
+    "category_id": 4,
+    "price": 6900,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "KD11 Little Big Cats",
+    "category_id": 4,
+    "price": 5700,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 4,
+    "price": 5300,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 4,
+    "price": 4600,
+    "description": "小/大童草地足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 4,
+    "price": 7000,
+    "description": "小/大童草地足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 4,
+    "price": 4400,
+    "description": "小童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 4,
+    "price": 6800,
+    "description": "小童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7",
+    "category_id": 4,
+    "price": 4500,
+    "description": "小童草地足球鞋"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 4,
+    "price": 4400,
+    "description": "小童草地足球鞋"
+  },
+  {
+    "name": "Air Jordan 1 Mid Alt",
+    "category_id": 4,
+    "price": 3100,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 4,
+    "price": 5500,
+    "description": "小童鞋款"
+  },
+  {
+    "name": "Nike Jr. MercurialX Vapor XII Academy CR7 IC",
+    "category_id": 4,
+    "price": 4200,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 4100,
+    "description": "小/大童室內/球場足球鞋"
+  },
+  {
+    "name": "Nike Air Max Tiny 90",
+    "category_id": 4,
+    "price": 3800,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 4,
+    "price": 3300,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 12",
+    "category_id": 4,
+    "price": 6600,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 4,
+    "price": 4900,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 3",
+    "category_id": 4,
+    "price": 6400,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 4,
+    "price": 5500,
+    "description": "嬰幼兒鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 4,
+    "price": 5300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 4,
+    "price": 3900,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Air Jordan Retro 6",
+    "category_id": 4,
+    "price": 6300,
+    "description": "嬰幼兒鞋款 (2c-10c)"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 4,
+    "price": 5600,
+    "description": "嬰幼兒鞋款 (2c-10c)"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 4,
+    "price": 3400,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Kyrie 4 Little Big Cats",
+    "category_id": 4,
+    "price": 5600,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Kyrie 4 Little Big Cats",
+    "category_id": 4,
+    "price": 3700,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 4,
+    "price": 6400,
+    "description": "幼童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 4,
+    "price": 3300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 4,
+    "price": 5300,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Tanjun",
+    "category_id": 4,
+    "price": 3700,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 4,
+    "price": 6200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Cortez Basic SL",
+    "category_id": 4,
+    "price": 6000,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Jr. Tiempo Legend VII Academy TF",
+    "category_id": 4,
+    "price": 4200,
+    "description": "大童鞋款"
+  },
+  {
+    "name": "Nike Jr. Tiempo Legend VII Academy TF",
+    "category_id": 4,
+    "price": 5500,
+    "description": "小/大童人工草地足球鞋"
+  },
+  {
+    "name": "Nike Jr. Phantom Vision Club Dynamic Fit MG",
+    "category_id": 4,
+    "price": 4900,
+    "description": "小/大童人工草地足球鞋"
+  },
+  {
+    "name": "Nike Jr. Phantom Vision Club Dynamic Fit MG",
+    "category_id": 4,
+    "price": 6600,
+    "description": "小/大童多種場地足球釘鞋"
+  }
+]

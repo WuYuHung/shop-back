@@ -12,12 +12,13 @@ class ProductRatingsTableSeeder extends Seeder
     public function run()
     {
         //
-        foreach (Range(1,1000) as $number) {
+        $faker  =  Faker\Factory::create('zh_TW');
+        foreach (Range(1,10000) as $number) {
             \App\ProductRating::create([
-                'user_id' => rand(1,10),
-                'product_id' => rand(1,20),
+                'user_id' => rand(1,21),
+                'product_id' => rand(1,900),
                 'rating' => rand(1,10),
-                'description' => '讚!',
+                'description' => $faker->paragraph(3,true),
                 'created_at' => \Carbon\Carbon::now(),
                 'is_buy' => true
             ]);

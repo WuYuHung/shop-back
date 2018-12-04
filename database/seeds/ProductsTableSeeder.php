@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\File;
 
 class ProductsTableSeeder extends Seeder
 {
@@ -12,17 +13,18 @@ class ProductsTableSeeder extends Seeder
     public function run()
     {
         //
-        foreach (Range(1,4) as $number) {
-            foreach (Range(1,5) as $product) {
-                \App\Product::create([
-                    'name' => '鞋子'.(5*($number-1) + $product),
-                    'category_id' => $number,
-                    'price' => rand( 10,150)*100,
-                    'description' => '非常美麗的鞋子',
-                    'photo_path' => ' ',
-                    'is_deleted' => false
-                ]);
-            }
+        $json = File::get("database/data/shoes_data.json");
+        $data= json_decode($json);
+        $c = ['man','woman','boy','girl'];
+        foreach ($data as $obj) {
+            \App\Product::create([
+                'name' => $obj->name,
+                'category_id' => $obj->category_id,
+                'price' => $obj->price,
+                'description' => $obj->description,
+                'photo_path' => $c[$obj->category_id-1]."_".rand(1,5).".png",
+                'is_deleted' => false
+            ]);
         }
     }
 }

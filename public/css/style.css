@@ -15425,9 +15425,8 @@ dl {
     line-height: 1; }
     .table th img,
     .table td img {
-      width: 30px;
-      height: 30px;
-      border-radius: 100%; }
+     max-width: 100%;
+        max-height: 250px; }
     .table th .badge,
     .table td .badge {
       margin-bottom: 0; }

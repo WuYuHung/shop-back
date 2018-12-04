@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\ProductRating;
 use App\User;
 use App\Order;
+use App\UserCoupon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -22,11 +24,40 @@ class UsersController extends Controller
         return response()->json($users,200);
     }
 
+    public  function storereatings(Request $request)
+    {
+        $product_ratings= new ProductRating();
+
+        $product_ratings->user_id = auth('api')->user()->id;
+        $product_ratings->product_id = $request->product_id;
+        $product_ratings->rating = $request->rating;
+        $product_ratings->description = $request->description;
+        $product_ratings->is_buy = $request->is_buy;
+
+        $product_ratings->save();
+
+        return response()->json([
+            'success' => true,
+        ]);
+    }
+
     public function allorders()
     {
         $products = Order::where('user_id',auth('api')->user()->id)->get();
 
         return response()->json($products);
+    }
+
+    public function allcoupons()
+    {
+        $coupons = UserCoupon::
+        join('coupons','coupon_id','coupons.id')
+            ->where('user_id',auth('api')->user()->id)
+            ->where('is_used',false)
+            ->select('coupons.*')
+            ->get();
+
+        return response()->json($coupons);
     }
 
     /**

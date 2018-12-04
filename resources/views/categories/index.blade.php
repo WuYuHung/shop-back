@@ -12,6 +12,7 @@
                         <thead>
                         <tr>
                             <th>ID#</th>
+                            <th>照片</th>
                             <th>商品分類名稱</th>
                             <th>管理功能</th>
                         </tr>
@@ -20,6 +21,9 @@
                         @foreach ($categories as $category)
                         <tr>
                             <td>{{ $category->id }}</td>
+                            <td>
+                                <img src="{{asset('images/category/'.$category->photo_path)}}" class="img-thumbnail">
+                            </td>
                             <td>{{ $category->name }}</td>
 
                             <td>

@@ -20,7 +20,7 @@ class OrdersTableSeeder extends Seeder
                     'amount' => rand(10000,300000),
                     'first_name' => $faker->firstName,
                     'last_name' => $faker->lastName,
-                    'company_name' => 'G2',
+                    'company_name' => $faker->company,
                     'address' => $faker->address,
                     'email' => $faker->email,
                     'phone' => $faker->phoneNumber,

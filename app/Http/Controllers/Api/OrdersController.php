@@ -27,7 +27,10 @@ class OrdersController extends Controller
 
     public function allproducts($id)
     {
-        $products = OrderProduct::join('products','product_id','products.id')->where('order_id',$id)->select('products.*')->get();
+        $products = OrderProduct::join('products','product_id','products.id')
+            ->where('order_id',$id)
+            ->select('products.*')
+            ->get();
 
         return response()->json($products);
     }

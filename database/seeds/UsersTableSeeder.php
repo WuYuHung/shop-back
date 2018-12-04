@@ -13,19 +13,6 @@ class UsersTableSeeder extends Seeder
     {
         //
         $faker  =  Faker\Factory::create('zh_TW');
-        foreach (Range(1,10) as $number) {
-            \App\User::create([
-                'name' => $faker->name,
-                'address' => $faker->address,
-                'email' => $faker->email,
-                'password' => Hash::make('123456'),
-                'phone' => $faker->phoneNumber,
-                'active' => true,
-                'permission' => false,
-                'birthdate' => $faker->date("1960-1-1","1999-12-31"),
-                'photo_path' => ''
-            ]);
-        }
         \App\User::create([
             'name' => $faker->name,
             'address' => $faker->address,
@@ -33,9 +20,23 @@ class UsersTableSeeder extends Seeder
             'password' => Hash::make('123456'),
             'phone' => $faker->phoneNumber,
             'active' => true,
-            'permission' => false,
+            'permission' => true,
             'birthdate' => $faker->date("1960-1-1","1999-12-31"),
             'photo_path' => ''
         ]);
+        foreach (Range(1,20) as $number) {
+            \App\User::create([
+                'name' => $faker->name,
+                'address' => $faker->address,
+                'email' => "user".$number."@gmail.com",
+                'password' => Hash::make("user".$number."pwd"),
+                'phone' => $faker->phoneNumber,
+                'active' => true,
+                'permission' => false,
+                'birthdate' => $faker->date("1960-1-1","1999-12-31"),
+                'photo_path' => ''
+            ]);
+        }
+
     }
 }
