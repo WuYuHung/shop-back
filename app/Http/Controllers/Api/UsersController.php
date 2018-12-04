@@ -22,9 +22,9 @@ class UsersController extends Controller
         return response()->json($users,200);
     }
 
-    public function allorders($id)
+    public function allorders()
     {
-        $products = Order::where('user_id',$id)->get();
+        $products = Order::where('user_id',auth('api')->user()->id)->get();
 
         return response()->json($products);
     }

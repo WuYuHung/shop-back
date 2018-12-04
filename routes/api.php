@@ -25,6 +25,9 @@ Route::middleware('auth:api')->group(function()
     Route::post('/logout','Api\AuthController@logout');
     Route::post('/refresh','Api\AuthController@refresh');
     Route::post('/orders','Api\OrdersController@store');
+
+    Route::get('/user','Api\AuthController@me');
+    Route::get('/user/orders','Api\UsersController@allorders');
 });
 
 //product
@@ -38,8 +41,6 @@ Route::get('/products/sort/{type}/{sort}','Api\ProductController@sort');
 //user
 Route::get('/users', 'Api\UsersController@index');
 Route::get('/user/{id}','Api\UsersController@show');
-Route::get('/user/{id}/orders','Api\UsersController@allorders');
-
 
 Route::post('/user/{id}','Api\UsersController@edit');
 
