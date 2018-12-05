@@ -67,7 +67,7 @@ class OrdersController extends Controller
             ]
         );
 
-       $id= Order::insertGetId([
+       $order= Order::create([
             'user_id' => $request->user_id,
             'coupon_id' => $request->coupon_id,
             'amount' => $request->amount,
@@ -82,7 +82,7 @@ class OrdersController extends Controller
 
         return response()->json([
             'success'=> true,
-            'order_id' => $id
+            'order_id' => $order->id
         ]);
     }
 
