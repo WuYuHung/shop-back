@@ -3,15 +3,17 @@
 namespace App\Http\Controllers\Api;
 
 use App\User;
+use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Password;
 
 class AuthController extends Controller
 {
     //
-
+    use SendsPasswordResetEmails;
     /**
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
@@ -52,12 +54,18 @@ class AuthController extends Controller
 
     public function reset(Request $request)
     {
-        $this->validate(
-            $request,
-            [
-                'email' => 'required|string|email|unique:users',
-            ]
+        $this->validateEmail($request);
+        // We will send the password reset link to this user. Once we have attempted
+        // to send the link, we will examine the response then see the message we
+        // need to show to the user. Finally, we'll send out a proper response.
+        $response = $this->broker()->sendResetLink(
+            $request->only('email')
         );
+        if($request->expectsJson()){
+            return $response = Password::RESET_LINK_SENT
+                ? response()->json(['status' => 'Success','message' => 'Reset Password Link Sent'],201)
+                : response()->json(['status' => 'Fail','message' => 'Reset Link Could Not Be Sent'],401);
+        }
 
     }
 

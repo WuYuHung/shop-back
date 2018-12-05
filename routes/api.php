@@ -18,7 +18,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/sendemail','Api\AuthController@sendemail');
-Route::post('/password/reset','Auth\ResetPasswordController@reset');
+
+Route::group([
+    'prefix' => 'password'
+], function () {
+    Route::post('create', 'Api\PasswordResetController@create');
+    Route::get('find/{token}', 'Api\PasswordResetController@find');
+    Route::post('reset', 'Api\PasswordResetController@reset');
+});
 
 Route::post('register','Api\AuthController@register');
 Route::post('login','Api\AuthController@login');
