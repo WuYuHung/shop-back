@@ -55,7 +55,13 @@ class UsersController extends Controller
             ->join('orders','order_id','orders.id')
             ->where('orders.status',$status)
             ->where('orders.user_id',auth('api')->user()->id)
-            ->select('products.*','quantity')
+            ->select(
+                'products.id as product_id',
+                'products.name',
+                'products.price',
+                'products.photo_path',
+                'orders.created_at',
+                'quantity')
             ->get();
         return response()->json($products);
     }
