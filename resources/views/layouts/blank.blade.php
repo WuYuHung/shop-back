@@ -35,7 +35,7 @@
 
 
         
-        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
                 <li class="nav-item" >
                     <a href="{{route('index')}} "class="nav-link" style="padding: 1rem 0rem 0rem 0.5rem ; color: white;">
@@ -138,23 +138,26 @@
                       <i class="icon-wrench menu-icon"></i>
                   </a>
               </li>
-          </ul>
-             <div class="nav" style="position:absolute;bottom:0px;">
-                 <li class="nav-item">
+              <li class="nav" style="position:absolute;bottom:0px;">
+                  <li class="nav-item">
 
-                    <a class="nav-link" style="text-align:center;" href="{{ route('logout') }}"
-                       onclick="event.preventDefault();
+                      <a class="nav-link" style="text-align:center;" href="{{ route('logout') }}"
+                         onclick="event.preventDefault();
                                                          document.getElementById('logout-form').submit();">
-                        <h2><i class="fas fa-sign-out-alt"  style="color:white"> {{ __('Logout') }}</i> </h2>
-                    </a>
+                          <h2><i class="fas fa-sign-out-alt"  style="color:white"> {{ __('Logout') }}</i> </h2>
+                      </a>
 
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                        @csrf
-                    </form>
-                 </li>
-            </div>
-        </nav>
-        
+                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                          @csrf
+                      </form>
+                  </li>
+              </li>
+          </ul>
+
+
+        </div>
+
+
         
         
         <!-- partial -->

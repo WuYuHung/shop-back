@@ -34,7 +34,7 @@ class UsersTableSeeder extends Seeder
                 'active' => true,
                 'permission' => false,
                 'birthdate' => $faker->date("1960-1-1","1999-12-31"),
-                'photo_path' => ''
+                'photo_path' => 'TWK.jpeg'
             ]);
         }
 

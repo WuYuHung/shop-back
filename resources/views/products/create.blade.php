@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="card-body">
+<div class="card-body" style="background-color : white;">
     <h4 class="card-title">上架商品</h4>
     <p class="card-description">
         商品資訊

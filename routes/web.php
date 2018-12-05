@@ -65,7 +65,7 @@ Auth::routes();
 Route::get('sendmail', function() {
     $data = ['name' => 'Test'];
     Mail::send('welcome', $data, function($message) {
-        $message->to('edward.0726@gmail.com')->subject('fuck');
+        $message->to('juck89724@gmail.com')->subject('fuck');
     });
     return 'Your email has been sent successfully!';
 });

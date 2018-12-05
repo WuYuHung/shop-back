@@ -6,6 +6,7 @@ use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class AuthController extends Controller
 {
@@ -47,6 +48,30 @@ class AuthController extends Controller
             'success' => true,
         ]);
 
+    }
+
+    public function reset(Request $request)
+    {
+        $this->validate(
+            $request,
+            [
+                'email' => 'required|string|email|unique:users',
+            ]
+        );
+
+    }
+
+    public function sendemail(Request $request)
+    {
+        Mail::send( 'email',['data' => $request->data], function($message) use($request) {
+            $message
+                ->to($request->email)
+                ->subject($request->subject);
+        });
+
+        return response()->json([
+            'success' => true,
+        ]);
     }
 
     public function me()

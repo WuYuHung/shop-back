@@ -39,11 +39,17 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate(
+            $request,
+            [
+                'name'=>'required',
+            ]
+        );
         Category::create([
             'name'=> $request->name,
             
             //'photo_path'=>'abc',
-            //'is_deleted' => false
+            'is_deleted' => false
         ]);
         return redirect()->route('categories.index');
     }

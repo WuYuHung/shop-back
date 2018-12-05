@@ -21,7 +21,7 @@ class CreateProductsTable extends Migration
             $table->decimal('price',10,2);
             $table->string('description');
             $table->timestamps();
-            $table->string('photo_path');
+            $table->string('photo_path')->nullable();
             $table->boolean('is_deleted');
         });
     }

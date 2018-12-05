@@ -15,19 +15,23 @@ class CategoriesTableSeeder extends Seeder
         //
             Category::create([
                 'name' => '男鞋',
-                'photo_path' => 'man.jpg'
+                'photo_path' => 'man.jpg',
+                'is_deleted' => false
             ]);
             Category::create([
                 'name' => '女鞋',
-                'photo_path' => 'woman.jpg'
+                'photo_path' => 'woman.jpg',
+                'is_deleted' => false
             ]);
             Category::create([
                 'name' => '男童',
-                'photo_path' => 'boy.png'
+                'photo_path' => 'boy.png',
+                'is_deleted' => false
             ]);
             Category::create([
                 'name' => '女童',
-                'photo_path' => 'girl.jpg'
+                'photo_path' => 'girl.jpg',
+                'is_deleted' => false
             ]);
     }
 }
