@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\OrderProduct;
 use App\ProductRating;
 use App\User;
 use App\Order;
@@ -45,6 +46,17 @@ class UsersController extends Controller
     {
         $products = Order::where('user_id',auth('api')->user()->id)->get();
 
+        return response()->json($products);
+    }
+
+    public function allproducts($status)
+    {
+        $products = OrderProduct::join('products','product_id','products.id')
+            ->join('orders','order_id','orders.id')
+            ->where('orders.status',$status)
+            ->where('orders.user_id',auth('api')->user()->id)
+            ->select('products.*','quantity')
+            ->get();
         return response()->json($products);
     }
 

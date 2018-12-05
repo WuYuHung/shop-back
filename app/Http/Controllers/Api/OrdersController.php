@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Order;
-use App\OrderProduct;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Log;
-
+    use App\Order;
+    use App\OrderProduct;
+    use Illuminate\Http\Request;
+    use App\Http\Controllers\Controller;
+    use Illuminate\Support\Facades\Log;
 class OrdersController extends Controller
 {
     /**
@@ -16,7 +15,7 @@ class OrdersController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    
+
     public function index()
     {
         //
@@ -29,7 +28,7 @@ class OrdersController extends Controller
     {
         $products = OrderProduct::join('products','product_id','products.id')
             ->where('order_id',$id)
-            ->select('products.*')
+            ->select('products.*','quantity')
             ->get();
 
         return response()->json($products);

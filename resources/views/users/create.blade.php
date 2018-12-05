@@ -9,7 +9,8 @@
         <p class="card-description">
             會員資訊
         </p>
-        <form class="forms-sample" role="form" action="{{ route('user.store') }}" method="post">
+
+        <form class="forms-sample" role="form" action="{{ route('user.store') }}" method="post" enctype="multipart/form-data">
             @csrf
             @if ($errors->any())
                 <div class="alert alert-danger alert-dismissible">
@@ -47,6 +48,8 @@
             <div class="form-group">
                 <input class="form-control" id="photo_path" name="photo_path" placeholder="照片位置" value="{{ old('photo_path') }}">
             </div>
+
+            <input type="file" name="fileToUpload" id="fileToUpload">
             <!-- <div class="form-group">
                 <input type="file" name="img[]" class="file-upload-default">
               <div class="input-group col-xs-12">

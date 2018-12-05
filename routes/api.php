@@ -38,6 +38,7 @@ Route::middleware('auth:api')->group(function()
 
     Route::get('/user','Api\AuthController@me');
     Route::get('/user/orders','Api\UsersController@allorders');
+    Route::get('/user/orders/{status}/products','Api\UsersController@allproducts');
     Route::get('/user/coupons','Api\UsersController@allcoupons');
 
     Route::post('/user/rating','Api\UsersController@storereatings');
