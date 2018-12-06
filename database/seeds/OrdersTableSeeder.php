@@ -1,5 +1,6 @@
 <?php
 
+use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 
 class OrdersTableSeeder extends Seeder
@@ -13,6 +14,7 @@ class OrdersTableSeeder extends Seeder
     {
         //
         $faker  =  Faker\Factory::create('zh_TW');
+        $status =['pay','stock','finish'];
         foreach (Range(1,100) as $number) {
                 \App\Order::create([
                     'user_id' => rand(1,10),
@@ -24,7 +26,9 @@ class OrdersTableSeeder extends Seeder
                     'address' => $faker->address,
                     'email' => $faker->email,
                     'phone' => $faker->phoneNumber,
-                    'status' => 'pay'
+                    'status' => $status[rand(0,2)],
+                    'created_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*5),
+                    'updated_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*10)
                 ]);
         }
     }

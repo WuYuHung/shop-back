@@ -9,6 +9,7 @@
         <p class="card-description">
             會員資訊
         </p>
+
         <form class="forms-sample" role="form" action="{{ route('user.store') }}" method="post" enctype="multipart/form-data">
             @csrf
             @if ($errors->any())
