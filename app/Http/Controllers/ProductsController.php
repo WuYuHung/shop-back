@@ -4,9 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
+use Webpatser\Uuid\Uuid;
 
 class ProductsController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -40,12 +44,24 @@ class ProductsController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate(
+            $request,
+            [
+                'name'=>'required',
+                'price'=>'required|numeric',
+                'description'=>'required',
+                'photo_path'=>'required|image',
+            ]
+        );
+
+        $path = $request->file('photo_path')->store('images/shop');
+
         Product::create([
             'name'=> $request->name,
             'category_id'=> $request->category_id,
             'price'=>$request->price,
             'description'=>$request->description,
-            'photo_path'=>'abc',
+            'photo_path'=>$path,
             'is_deleted' => false
         ]);
         return redirect()->route('products.index');
@@ -86,8 +102,28 @@ class ProductsController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate(
+            $request,
+            [
+                'name'=>'required',
+                'price'=>'required|numeric',
+                'description'=>'required',
+                'photo_path'=>'image',
+            ]
+        );
+
         $product = Product::find($id);
-        $product->update($request->all());
+        $path = $product->photo_path;
+        if($request->photo_path !=null)
+            $path = $request->file('photo_path')->store('images/shop');
+        $product->update([
+            'name'=> $request->name,
+            'category_id'=> $request->category_id,
+            'price'=>$request->price,
+            'description'=>$request->description,
+            'photo_path'=>$path,
+            'is_deleted' => false
+        ]);
         $product->save();
 
         return redirect()->route('products.index');
@@ -102,6 +138,11 @@ class ProductsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $product = Product::find($id);
+        $product->update([
+            'is_deleted' => !$product->is_deleted,
+        ]);
+        $product->save();
+        return redirect()->route('products.index');
     }
 }

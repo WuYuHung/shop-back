@@ -22,7 +22,7 @@
                         <tr>
                             <td>{{ $category->id }}</td>
                             <td>
-                                <img src="{{asset('images/category/'.$category->photo_path)}}" class="img-thumbnail">
+                                <img src="{{asset('storage/'.$category->photo_path)}}" class="img-thumbnail">
                             </td>
                             <td>{{ $category->name }}</td>
 

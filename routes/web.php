@@ -44,9 +44,11 @@ Route::middleware('auth','adminAuth')->group(function() {
     Route::prefix('products')->name('products.')->group(function (){
         Route::get('/', 'ProductsController@index')->name('index');
         Route::get('/create', 'ProductsController@create')->name('create');
+        Route::delete('/{id}', 'ProductsController@destroy')->name('destroy');
         Route::post('/', 'ProductsController@store')->name('store');
         Route::get('/{id}/edit', 'ProductsController@edit')->name('edit');
         Route::patch('/{id}', 'ProductsController@update')->name('update');
+
     });
 
     Route::prefix('categories')->name('categories.')->group(function (){
