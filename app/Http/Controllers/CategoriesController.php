@@ -28,6 +28,7 @@ class CategoriesController extends Controller
      */
     public function create()
     {
+
         return View('categories.create');
     }
 
@@ -43,13 +44,14 @@ class CategoriesController extends Controller
             $request,
             [
                 'name'=>'required',
+                'photo_path'=>'required|image',
             ]
         );
+        $path = $request->file('photo_path')->store('images/category');
         Category::create([
             'name'=> $request->name,
-            
-            //'photo_path'=>'abc',
-            'is_deleted' => false
+            'photo_path'=>$path,
+            'is_deleted' => false,
         ]);
         return redirect()->route('categories.index');
     }
@@ -89,8 +91,22 @@ class CategoriesController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate(
+            $request,
+            [
+                'name'=>'required',
+                'photo_path'=>'required|image',
+            ]
+        );
+        $path = $request->file('photo_path')->store('images/category');
+
         $category = Category::find($id);
-        $category->update($request->all());
+        $category->update([
+            'name'=> $request->name,
+
+            'photo_path'=>$path,
+            'is_deleted' => false
+            ]);
         $category->save();
 
         return redirect()->route('categories.index');

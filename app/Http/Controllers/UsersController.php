@@ -4,9 +4,14 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Validator;
+
 
 class UsersController extends Controller
 {
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -49,9 +54,10 @@ class UsersController extends Controller
                 'address'=>'required',
                 'phone'=>'required',
                 'birthdate'=>'required',
-
+                'photo_path'=>'required|image',
             ]
         );
+        $path = $request->file('photo_path')->store('images/user');
         User::create([
             'email' => $request->email,
             'password' => $request->password,
@@ -60,7 +66,7 @@ class UsersController extends Controller
             'phone' => $request->phone,
             'birthdate' => $request->birthdate,
             'permission' => false,
-            'photo_path' => $request->photo_path,
+            'photo_path' => $path,
             'active' => true,
         ]);
         return redirect()->route('user.index');

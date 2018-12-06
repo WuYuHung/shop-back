@@ -22,7 +22,7 @@ class ProductsTableSeeder extends Seeder
                 'category_id' => $obj->category_id,
                 'price' => $obj->price,
                 'description' => $obj->description,
-                'photo_path' => $c[$obj->category_id-1]."_".rand(1,5).".png",
+                'photo_path' => 'images/shop/'.$c[$obj->category_id-1]."_".rand(1,5).".png",
                 'is_deleted' => false
             ]);
         }

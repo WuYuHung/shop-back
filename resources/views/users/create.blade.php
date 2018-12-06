@@ -9,7 +9,7 @@
         <p class="card-description">
             會員資訊
         </p>
-        <form class="forms-sample" role="form" action="{{ route('user.store') }}" method="post">
+        <form class="forms-sample" role="form" action="{{ route('user.store') }}" method="post" enctype="multipart/form-data">
             @csrf
             @if ($errors->any())
                 <div class="alert alert-danger alert-dismissible">
@@ -44,9 +44,7 @@
             <div class="form-group">
                 <input class="form-control" type="date" id="birthdate"  name="birthdate" max="{{\Carbon\Carbon::now()->toDateString()}}" value="{{ old('birthdate') }}">
             </div>
-            <div class="form-group">
-                <input class="form-control" id="photo_path" name="photo_path" placeholder="照片位置" value="{{ old('photo_path') }}">
-            </div>
+            {!! Form::file('photo_path') !!}
             <!-- <div class="form-group">
                 <input type="file" name="img[]" class="file-upload-default">
               <div class="input-group col-xs-12">
@@ -57,7 +55,8 @@
                 </-div>  -->
 
             <button type="submit" class="btn btn-success mr-2">新增</button>
-            <button class="btn btn-light">取消</button>
+
+            <a class="btn btn-light" href="{{route('user.index')}}">取消</a>
         </form>
     </div>
 @endsection
