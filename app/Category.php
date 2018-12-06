@@ -13,6 +13,8 @@ class Category extends Model
         'name',
         'created_at',
         'updated_at',
+        'photo_path',
+        'is_deleted'
         ];
 
      public function products(){

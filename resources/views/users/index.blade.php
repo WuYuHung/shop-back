@@ -9,7 +9,6 @@
                         <!-- /.box-header -->
                             <table id="order-listing" class="table" cellspacing="0">
                                 <tr>
-                                    <th class="text-center" style="width: 10px;">id</th>
                                     <th class="text-center" style="width: 50px">相片</th>
                                     <th class="text-center" style="width: 250px">email</th>
                                     <th class="text-center" style="width: 120px">姓名</th>
@@ -20,9 +19,8 @@
                                 @foreach ($users as $user)
 
                                         <tr>
-                                            <td>{{ $user->id }}.</td>
                                             <td>
-                                                <img src="{{asset('images/user/'.$user->photo_path)}}" >
+                                                <img src="{{asset('storage/'.$user->photo_path)}}" >
                                             </td>
                                             <td>{{ $user->email }}</td>
                                             <td>{{ $user->name }}</td>
@@ -35,13 +33,13 @@
                                                 @if(!$user->active)
                                                     <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
-                                                        <button type="submit" class="btn btn-xs btn-danger">啟用</button>
+                                                        <button type="submit" class="btn btn-outline-danger">啟用</button>
                                                     </form>
                                                 @else
                                                     <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
                                                         @method('DELETE')
-                                                        <button type="submit" class="btn btn-xs btn-danger">刪除</button>
+                                                        <button type="submit" class="btn btn-outline-danger">刪除</button>
                                                     </form>
                                                 @endif
                                             </td>

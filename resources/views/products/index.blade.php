@@ -27,7 +27,7 @@
                         <tr>
                             <td>{{ $product->id }}</td>
                             <td>
-                                <img src="{{asset('images/shop/'.$product->photo_path)}}" class="img-thumbnail">
+                                <img src="{{asset('storage/'.$product->photo_path)}}" class="img-thumbnail">
                             </td>
                             <td>{{ $product->name }}</td>
                             <td>{{ \App\Category::find($product->category_id)->name }}</td>
@@ -35,9 +35,21 @@
                             <td>{{ $product->description }}</td>
                             <td>{{ $product->created_at }}</td>
 
-                            <td>
+                            <td class="text-center">
                                 <a class="btn btn-outline-primary" href="{{route('products.edit',[$product->id])}}">編輯</a>
-                                <a class="btn btn-outline-primary">刪除</a>
+                                @if($product->is_deleted)
+                                    <form action="{{ route('products.destroy', $product->id) }}" method="post" style="display: inline-block">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-outline-danger">啟用</button>
+                                    </form>
+                                @else
+                                    <form action="{{ route('products.destroy', $product->id) }}" method="post" style="display: inline-block">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-outline-danger">刪除</button>
+                                    </form>
+                                @endif
                             </td>
                         </tr>
                         @endforeach
