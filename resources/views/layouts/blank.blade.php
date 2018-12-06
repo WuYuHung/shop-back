@@ -121,7 +121,7 @@
                   </a>
               </li>
 
-              <!-- event -->
+              <!-- event
               <li class="nav-item nav-category">
                   <span class="nav-link"><i class="fas fa-table"> 活動</i> </span>
               </li>
@@ -137,7 +137,7 @@
                       <span class="menu-title">新增活動</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>
-              </li>
+              </li>>-->
               <li class="nav" style="position:absolute;bottom:0px;">
                   <li class="nav-item">
 
