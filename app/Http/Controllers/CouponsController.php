@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Coupon;
+use App\User;
+use App\UserCoupon;
 use Illuminate\Http\Request;
 
 class CouponsController extends Controller
@@ -16,7 +18,7 @@ class CouponsController extends Controller
     {
         $coupons = Coupon::orderBy('start_date','DESC')->paginate(10);
         $data =[
-          'coupons' => $coupons,
+            'coupons' => $coupons,
         ];
         return view('coupons.index',$data);
     }
@@ -52,6 +54,21 @@ class CouponsController extends Controller
 
         return redirect()->route('coupon.index');
     }
+    public function store_userCoupon(Request $request)
+    {
+        $user_coupons = UserCoupon::all();
+        $data = [
+            'id' => $request->coupon_id,
+            'user_coupons' => $user_coupons
+        ];
+
+        UserCoupon::create([
+            'user_id' => $request->user_id,
+            'coupon_id' => $request->coupon_id,
+            'is_used' => false
+        ]);
+        return redirect()->route('coupon.show',$data);
+    }
 
     /**
      * Display the specified resource.
@@ -61,7 +78,19 @@ class CouponsController extends Controller
      */
     public function show($id)
     {
-        //
+        $user_coupons = UserCoupon::where('coupon_id','=',$id)->get();
+        $users = User::all();
+        foreach ($user_coupons as $user_coupon)
+        {
+            $users = $users->where('id','<>',$user_coupon->user_id);
+        }
+        $data = [
+            'user_coupons' => UserCoupon::where('coupon_id','=',$id)->paginate(10),
+            'id' =>$id,
+            'users'=>$users
+        ];
+        return View('coupons.show',$data);
+
     }
 
     /**
