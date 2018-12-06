@@ -35,6 +35,8 @@ Route::middleware('auth','adminAuth')->group(function() {
        Route::get('/','CouponsController@index')->name('index');
        Route::get('/create','CouponsController@create')->name('create');
        Route::post('/','CouponsController@store')->name('store');
+       Route::get('/{id}','CouponsController@show')->name('show');
+       Route::post('/','CouponsController@store_userCoupon')->name('user_store');
 
     });
 
