@@ -43,6 +43,8 @@ Route::middleware('auth:api')->group(function()
 
     Route::post('/user/rating','Api\UsersController@storereatings');
     Route::post('/user','Api\AuthController@edit');
+    Route::post('/user/password','Api\AuthController@editPass');
+    Route::post('/user/photo','Api\AuthController@changePhoto');
 });
 
 //product

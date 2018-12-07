@@ -85,9 +85,9 @@ class PasswordResetController extends Controller
             ['email', $request->email]
         ])->first();
         if (!$passwordReset)
-            return response()->json([
-                'message' => 'This password reset token is invalid.'
-            ], 404);
+        return response()->json([
+            'message' => 'This password reset token is invalid.'
+        ], 404);
         $user = User::where('email', $passwordReset->email)->first();
         if (!$user)
             return response()->json([

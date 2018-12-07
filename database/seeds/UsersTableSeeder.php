@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
             'name' => $faker->name,
             'address' => $faker->address,
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('123456'),
+            'password' => Hash::make('adminpwd'),
             'phone' => $faker->phoneNumber,
             'active' => true,
             'permission' => true,

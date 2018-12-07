@@ -140,7 +140,6 @@
               </li>>-->
               <li class="nav" style="position:absolute;bottom:0px;">
                   <li class="nav-item">
-
                       <a class="nav-link" style="text-align:center;" href="{{ route('logout') }}"
                          onclick="event.preventDefault();
                                                          document.getElementById('logout-form').submit();">

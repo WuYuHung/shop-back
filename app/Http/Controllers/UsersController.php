@@ -9,9 +9,6 @@ use Illuminate\Validation\Validator;
 
 class UsersController extends Controller
 {
-
-
-
     /**
      * Display a listing of the resource.
      *
@@ -56,7 +53,7 @@ class UsersController extends Controller
                 'password_confirm' => 'required|same:password',
                 'name'=>'required',
                 'address'=>'required',
-                'phone'=>'required',
+                'phone'=>'required|digits:10',
                 'birthdate'=>'required',
                 'photo_path'=>'required|image',
             ]

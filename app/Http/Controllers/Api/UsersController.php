@@ -64,7 +64,6 @@ class UsersController extends Controller
                 'orders.created_at',
                 'quantity',
                 'discount')
-
             ->get();
         return response()->json($products);
     }
