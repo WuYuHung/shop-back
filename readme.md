@@ -39,6 +39,8 @@ php artisan jwt:secret
 **接上storage**
 ```sh
 php artisan storage:link
+
+ps: 如果cmd回傳連結已存在時,請到public/底下刪除storage
 ```
 
 開始程式饗宴
