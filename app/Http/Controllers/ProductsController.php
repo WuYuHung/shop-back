@@ -19,7 +19,7 @@ class ProductsController extends Controller
     public function index()
     {
         //
-        $products = Product::paginate(6);
+        $products = Product::orderBy('created_at','desc')->paginate(6);
         $data = [
             'products' => $products,
         ];
