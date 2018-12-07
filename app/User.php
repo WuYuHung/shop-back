@@ -29,7 +29,8 @@ class User extends Authenticatable implements JWTSubject
         'created_at',
         'updated_at',
         'photo_path',
-        'active'
+        'active',
+        'is_vip'
     ];
 
     public function orders(){

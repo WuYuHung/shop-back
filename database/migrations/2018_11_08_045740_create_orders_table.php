@@ -28,6 +28,7 @@ class CreateOrdersTable extends Migration
             $table->string('phone');
             $table->timestamps();
             $table->enum('status',['pay','stock','finish','cancel']);
+            $table->double('discount')->default(100);
         });
     }
 

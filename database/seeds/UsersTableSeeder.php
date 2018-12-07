@@ -22,7 +22,8 @@ class UsersTableSeeder extends Seeder
             'active' => true,
             'permission' => true,
             'birthdate' => $faker->date("1960-1-1","1999-12-31"),
-            'photo_path' => 'images/user/TWK.jpeg'
+            'photo_path' => 'images/user/TWK.jpeg',
+            'is_vip' => true
         ]);
         foreach (Range(1,20) as $number) {
             \App\User::create([
@@ -33,8 +34,9 @@ class UsersTableSeeder extends Seeder
                 'phone' => $faker->phoneNumber,
                 'active' => true,
                 'permission' => false,
-                'birthdate' => $faker->date("1960-1-1","1999-12-31"),
-                'photo_path' => 'images/user/TWK.jpeg'
+                'birthdate' => $faker->date("1960-1-1"),
+                'photo_path' => 'images/user/TWK.jpeg',
+                'is_vip' => true
             ]);
         }
 

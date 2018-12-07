@@ -43,7 +43,8 @@ class AuthController extends Controller
             'active' => true,
             'permission' => false,
             'birthdate' => $request->input('birthdate'),
-            'photo_path' => $request->input('photo_path')
+            'photo_path' => $request->input('photo_path'),
+            'is_vip' => false
         ]);
 
         return response()->json([

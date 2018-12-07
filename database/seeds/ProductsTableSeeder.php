@@ -1,5 +1,6 @@
 <?php
 
+use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
@@ -23,7 +24,9 @@ class ProductsTableSeeder extends Seeder
                 'price' => $obj->price,
                 'description' => $obj->description,
                 'photo_path' => 'images/shop/'.$c[$obj->category_id-1]."_".rand(1,5).".png",
-                'is_deleted' => false
+                'is_deleted' => false,
+                'created_at' => Carbon::now()->subMonth(12),
+                'updated_at' => Carbon::now()->subMonth(12)
             ]);
         }
     }

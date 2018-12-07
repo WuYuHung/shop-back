@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
     use App\Order;
     use App\OrderProduct;
+    use App\UserCoupon;
     use Illuminate\Http\Request;
     use App\Http\Controllers\Controller;
     use Illuminate\Support\Facades\Log;
@@ -28,7 +29,7 @@ class OrdersController extends Controller
     {
         $products = OrderProduct::join('products','product_id','products.id')
             ->where('order_id',$id)
-            ->select('products.*','quantity')
+            ->select('products.*','quantity','discount')
             ->get();
 
         return response()->json($products);
@@ -60,10 +61,11 @@ class OrdersController extends Controller
                 'amount' => 'required|integer',
                 'first_name' => 'required|string',
                 'last_name' => 'required|string',
-                'company_name' => 'required|string',
+                'company_name' => 'string',
                 'address' => 'required|string',
                 'email' => 'required|email',
                 'phone' => 'required',
+                'discount' => 'required'
             ]
         );
 
@@ -77,8 +79,17 @@ class OrdersController extends Controller
             'address' => $request->address,
             'email' => $request->email,
             'phone' => $request->phone,
-            'status' => 'pay'
+            'status' => 'pay',
+            'discount' => $request->discount
         ]);
+
+       if ($request->coupon_id != null)
+       {
+           $usercoupon = UserCoupon::where('user_id',$request->user_id)
+               ->where('coupon_id',$request->coupon_id)
+               ->first();
+           $usercoupon->is_used = true;
+       }
 
         return response()->json([
             'success'=> true,

@@ -28,7 +28,8 @@ class OrdersTableSeeder extends Seeder
                     'phone' => $faker->phoneNumber,
                     'status' => $status[rand(0,2)],
                     'created_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*5),
-                    'updated_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*10)
+                    'updated_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*10),
+                    'discount' => 100
                 ]);
         }
     }

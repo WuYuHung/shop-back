@@ -72,6 +72,7 @@ class UsersController extends Controller
             'permission' => false,
             'photo_path' => $path,
             'active' => true,
+            'is_vip' => false
         ]);
         return redirect()->route('user.index');
     }
