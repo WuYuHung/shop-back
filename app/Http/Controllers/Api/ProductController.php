@@ -17,13 +17,13 @@ class ProductController extends Controller
     public function index()
     {
         //
-        $products = Product::paginate(20,null,'page');
+        $products = Product::all();
         return response()->json($products,200);
     }
 
     public function sort(string $type,string $sort)
     {
-        $products = Product::orderBy($type,$sort)->paginate(20,null,'page');
+        $products = Product::orderBy($type,$sort)->get();
 
         return response()->json($products,200);
     }
