@@ -17,7 +17,7 @@
                             <th>價格</th>
                             <th>商品述敘</th>
                             <th>創建日期</th>
-                            <th>管理功能</th>
+                            <th class="text-center">管理功能</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -28,7 +28,7 @@
                             </td>
                             <td>{{ $product->name }}</td>
                             <td>{{ \App\Category::find($product->category_id)->name }}</td>
-                            <td>{{ $product->price }}</td>
+                            <td>{{ ROUND($product->price) }}</td>
                             <td>{{ $product->description }}</td>
                             <td>{{ $product->created_at }}</td>
                             <td class="text-center">

@@ -33,6 +33,7 @@ class ProductController extends Controller
         $ratings = ProductRating::join('users',"user_id","=","users.id")
             ->where('product_id',$id)
             ->select('users.name','rating','description','product_ratings.created_at','is_buy')
+            ->orderby('product_ratings.created_at','desc')
             ->get();
 
         return response()->json($ratings,200);

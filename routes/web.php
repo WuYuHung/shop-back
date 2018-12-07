@@ -36,9 +36,12 @@ Route::middleware('auth','adminAuth')->group(function() {
        Route::get('/create','CouponsController@create')->name('create');
        Route::post('/','CouponsController@store')->name('store');
        Route::get('/{id}','CouponsController@show')->name('show');
-       Route::post('/','CouponsController@store_userCoupon')->name('user_store');
 
     });
+    Route::prefix('user_coupon')->name('user_coupon.')->group(function(){
+        Route::post('/','CouponsController@store_userCoupon')->name('user_store');
+    });
+
 
 
     Route::prefix('products')->name('products.')->group(function (){
@@ -60,7 +63,10 @@ Route::middleware('auth','adminAuth')->group(function() {
     });
 
 
-    Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/home', function(){
+        return redirect()->route('user.index');
+    })->name('home');
+
 });
 
 

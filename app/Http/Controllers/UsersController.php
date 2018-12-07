@@ -41,10 +41,6 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        $path = $request->file('fileToUpload')->store('images');
-
-        dd($path);
-
         $this->validate(
             $request,
             [
