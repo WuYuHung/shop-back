@@ -1,6 +1,6 @@
 @extends('layouts.blank')
 
-@section('title','編輯商品')
+@section('title','編輯商品分類')
 
 @section('content')
     <div class="col-lg-6 grid-margin stretch-card" style="margin: 0px auto;">

@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Subscribe;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class EventsController extends Controller
 {
@@ -14,6 +16,26 @@ class EventsController extends Controller
     public function index()
     {
         //
+        $subscribes =  Subscribe::paginate(6);
+        $data =[
+            'subscribes' =>$subscribes
+        ];
+        return View('subscribe',$data);
+    }
+
+    public function send(Request $request)
+    {
+        $subscribes =  Subscribe::all();
+        Mail::send( 'email',['data' => $request->data], function($message) use($request,$subscribes) {
+            foreach ( $subscribes as $subscribe ) {
+                $message
+                    ->to($subscribe->email)
+                    ->subject($request->subject);
+            }
+        });
+        return redirect()->route('subscribes.index')->with([
+            'flash_message' => '發送完成!'
+        ]);
     }
 
     /**

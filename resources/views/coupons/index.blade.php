@@ -1,5 +1,5 @@
 @extends('layouts.blank')
-@section('title','訂單列表')
+@section('title','優惠券列表')
 @section('content')
     <div class="card">
         <div class="card-body">

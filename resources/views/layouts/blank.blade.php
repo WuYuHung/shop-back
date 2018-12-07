@@ -34,7 +34,6 @@
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <div class="row row-offcanvas row-offcanvas-right">
-        <!-- partial:../../partials/_sidebar.html -->
 
 
         
@@ -124,23 +123,16 @@
                   </a>
               </li>
 
-              <!-- event
-              <li class="nav-item nav-category">
-                  <span class="nav-link"><i class="fas fa-table"> 活動</i> </span>
-              </li>
 
+              <li class="nav-item nav-category">
+                  <span class="nav-link"><i class="fas fa-table"> 訂閱</i> </span>
+              </li>
               <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
-                      <span class="menu-title">查詢</span>
+                  <a class="nav-link" href="{{route('subscribes.index')}}">
+                      <span class="menu-title">訂閱戶查詢與傳送訊息</span>
                       <i class="icon-wrench menu-icon"></i>
                   </a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../../pages/widgets.html">
-                      <span class="menu-title">新增活動</span>
-                      <i class="icon-wrench menu-icon"></i>
-                  </a>
-              </li>>-->
               <li class="nav" style="position:absolute;bottom:0px;">
                   <li class="nav-item">
                       <a class="nav-link" style="text-align:center;" href="{{ route('logout') }}"
@@ -155,8 +147,6 @@
                   </li>
               </li>
           </ul>
-
-
         </div>
 
 
