@@ -14,9 +14,6 @@
                                 <th>姓名</th>
                                 <th>公司名稱</th>
                                 <th>地址</th>
-                                <th>email</th>
-                                <th>手機</th>
-                                <th>總價</th>
                                 <th>配送狀態</th>
                                 <th>管理功能</th>
                             </tr>
@@ -27,10 +24,7 @@
                                     <td>{{ $order->user->name }}</td>
                                     <td>{{ $order->company_name }}</td>
                                     <td>{{ $order->address }}</td>
-                                    <td>{{ $order->email }}</td>
-                                    <td>{{ $order->phone }}</td>
-                                    <td>{{ $order->amount }}</td>
-                                    <td>{{ $order->status }}</td>
+                                    <td>{{ $order->status == "pay" ? "已付款" : ($order->status == "stock" ? "已出貨" : ($order->status == "cancel" ? "取消" :"完成")) }}</td>
                                     <td class="text-center">
                                         <form action="{{ route('order.update', $order->id) }}" method="post" style="display: inline-block">
                                             @csrf

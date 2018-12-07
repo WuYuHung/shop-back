@@ -31,7 +31,7 @@
 
                                             <td class="text-center">
                                                 @if(!$user->active)
-                                                    <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
+                                                    <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
                                                         <button type="submit" class="btn btn-outline-danger">啟用</button>
                                                     </form>
@@ -41,6 +41,17 @@
                                                         @method('DELETE')
                                                         <button type="submit" class="btn btn-outline-danger">刪除</button>
                                                     </form>
+                                                @endif
+                                                @if(!$user->is_vip)
+                                                        <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
+                                                            @csrf
+                                                            <button type="submit" class="btn btn-outline-danger">升級vip</button>
+                                                        </form>
+                                                @else
+                                                        <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
+                                                            @csrf
+                                                            <button type="submit" class="btn btn-outline-danger">解除vip</button>
+                                                        </form>
                                                 @endif
                                             </td>
                                         </tr>

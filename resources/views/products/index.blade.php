@@ -31,7 +31,6 @@
                             <td>{{ $product->price }}</td>
                             <td>{{ $product->description }}</td>
                             <td>{{ $product->created_at }}</td>
-
                             <td class="text-center">
                                 <a class="btn btn-outline-primary" href="{{route('products.edit',[$product->id])}}">編輯</a>
                                 @if($product->is_deleted)

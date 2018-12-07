@@ -55,9 +55,10 @@ class OrdersController extends Controller
      */
     public function show($id)
     {
-
+        $order = Order::find($id);
         $order_products = OrderProduct::where('order_id','=',$id)->paginate(10);
         $data =[
+            'order' => $order,
             'order_products' => $order_products
         ];
         return View('orders.show',$data);

@@ -7,6 +7,22 @@
             <div class="row">
                 <div class="col-12">
                     <!-- /.box-header -->
+                    <div class="box-body">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>email</th>
+                                <th>手機</th>
+                                <th>總價</th>
+                                <th>折價</th>
+                            </tr>
+                            <tr>
+                                <td>{{ $order->email }}</td>
+                                <td>{{ $order->phone }}</td>
+                                <td>{{ $order->amount }}</td>
+                                <td>{{ $order->discount }}%</td>
+                            </tr>
+                        </table>
+                    </div>
                     <div class="box-body" >
                         <table class="table table-bordered">
                             <tr>
