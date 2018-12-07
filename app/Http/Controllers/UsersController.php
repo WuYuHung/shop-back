@@ -95,7 +95,8 @@ class UsersController extends Controller
     public function edit($id)
     {
         //
-        User::find($id)->update(['active'=>true]);
+       $user =  User::find($id);
+       $user->update(['is_vip'=>!$user->is_vip]);
         return redirect()->route('user.index');
     }
 
@@ -116,7 +117,7 @@ class UsersController extends Controller
      */
     public function destroy(User $user)
     {
-        $user->update(['active'=>false]);
+        $user->update(['active'=>!$user->active]);
         return redirect()->route('user.index');
     }
 }
