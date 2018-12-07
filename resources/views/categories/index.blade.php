@@ -5,7 +5,7 @@
 @section('content')
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Data table</h4>
+            <h4 class="card-title">商品分類</h4>
             <div class="row">
                 <div class="col-12">
                     <table id="order-listing" class="table" cellspacing="0">

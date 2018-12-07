@@ -16,7 +16,7 @@ class CouponsController extends Controller
      */
     public function index()
     {
-        $coupons = Coupon::orderBy('start_date','DESC')->paginate(10);
+        $coupons = Coupon::orderby('created_at','asc')->paginate(10);
         $data =[
             'coupons' => $coupons,
         ];
@@ -44,8 +44,7 @@ class CouponsController extends Controller
         $this->validate(
             $request,
             [
-                'code' => 'required|min:8|max:8',
-                'start_date'=> 'before_or_equal:end_date',
+                'code' => 'required|size:10',
                 'description'=>'required'
             ]
         );
@@ -78,7 +77,7 @@ class CouponsController extends Controller
      */
     public function show($id)
     {
-        $user_coupons = UserCoupon::where('coupon_id','=',$id)->where('is_used',true)->get();
+        $user_coupons = UserCoupon::where('coupon_id','=',$id)->where('is_used',false)->get();
         $users = User::all();
         foreach ($user_coupons as $user_coupon)
         {

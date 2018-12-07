@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
             'active' => true,
             'permission' => true,
             'birthdate' => $faker->date("1960-1-1","1999-12-31"),
-            'photo_path' => 'images/user/TWK.jpeg',
+            'photo_path' => 'images/user/default.png',
             'is_vip' => true
         ]);
         foreach (Range(1,20) as $number) {
@@ -35,7 +35,7 @@ class UsersTableSeeder extends Seeder
                 'active' => true,
                 'permission' => false,
                 'birthdate' => $faker->date("1960-1-1"),
-                'photo_path' => 'images/user/TWK.jpeg',
+                'photo_path' => 'images/user/default.png',
                 'is_vip' => false
             ]);
         }

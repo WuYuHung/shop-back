@@ -9,12 +9,13 @@
                         <!-- /.box-header -->
                             <table id="order-listing" class="table" cellspacing="0">
                                 <tr>
-                                    <th  style="width: 50px">相片</th>
-                                    <th  style="width: 250px">email</th>
-                                    <th  style="width: 120px">姓名</th>
-                                    <th  >地址</th>
-                                    <th  style="width: 150px" >電話號碼</th>
-                                    <th  style="width: 120px">生日</th>
+                                    <th>相片</th>
+                                    <th>email</th>
+                                    <th>姓名</th>
+                                    <th>地址</th>
+                                    <th>電話號碼</th>
+                                    <th>生日</th>
+                                    <th class="text-center">管理</th>
                                 </tr>
                                 @foreach ($users as $user)
 
@@ -30,29 +31,20 @@
 
 
                                             <td class="text-center">
-                                                @if(!$user->active)
+                                                @if(!$user->permission)
                                                     <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
-                                                        <button type="submit" class="btn btn-outline-danger">啟用</button>
+                                                        <button type="submit" class="btn btn-outline-danger">
+                                                            {{!$user->is_vip ? "刪除" : "啟用"}}
+                                                        </button>
                                                     </form>
-                                                @else
-                                                    <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
+                                                @endif
+                                                    <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
-                                                        @method('DELETE')
-                                                        <button type="submit" class="btn btn-outline-danger">刪除</button>
+                                                        <button type="submit" class="btn btn-outline-danger">
+                                                            {{!$user->is_vip ? "升級Vip" : "解除vip"}}
+                                                        </button>
                                                     </form>
-                                                @endif
-                                                @if(!$user->is_vip)
-                                                        <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
-                                                            @csrf
-                                                            <button type="submit" class="btn btn-outline-danger">升級vip</button>
-                                                        </form>
-                                                @else
-                                                        <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
-                                                            @csrf
-                                                            <button type="submit" class="btn btn-outline-danger">解除vip</button>
-                                                        </form>
-                                                @endif
                                             </td>
                                         </tr>
 

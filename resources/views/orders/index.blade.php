@@ -26,6 +26,7 @@
                                     <td>{{ $order->address }}</td>
                                     <td>{{ $order->status == "pay" ? "已付款" : ($order->status == "stock" ? "已出貨" : ($order->status == "cancel" ? "取消" :"完成")) }}</td>
                                     <td class="text-center">
+                                        @if($order->status != "cancel")
                                         <form action="{{ route('order.update', $order->id) }}" method="post" style="display: inline-block">
                                             @csrf
                                             <button type="submit" class="btn btn-xs btn-outline-danger">更改狀態</button>
@@ -35,6 +36,7 @@
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-xs btn-outline-danger">取消</button>
                                         </form>
+                                        @endif
                                         <a href="{{ route('order.show', $order->id) }}" class="btn btn-xs btn-outline-primary">詳細</a>
                                     </td>
                                 </tr>
