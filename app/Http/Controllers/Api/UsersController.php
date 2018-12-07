@@ -126,10 +126,10 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request,$id)
+    public function edit(Request $request)
     {
         //
-        $user = User::find($id);
+        $user = User::find(auth('api')->user()->id);
 
         if($user === null)
         {

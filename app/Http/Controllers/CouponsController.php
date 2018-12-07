@@ -78,7 +78,7 @@ class CouponsController extends Controller
      */
     public function show($id)
     {
-        $user_coupons = UserCoupon::where('coupon_id','=',$id)->get();
+        $user_coupons = UserCoupon::where('coupon_id','=',$id)->where('is_used',true)->get();
         $users = User::all();
         foreach ($user_coupons as $user_coupon)
         {

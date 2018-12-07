@@ -36,7 +36,7 @@ class UsersTableSeeder extends Seeder
                 'permission' => false,
                 'birthdate' => $faker->date("1960-1-1"),
                 'photo_path' => 'images/user/TWK.jpeg',
-                'is_vip' => true
+                'is_vip' => false
             ]);
         }
 

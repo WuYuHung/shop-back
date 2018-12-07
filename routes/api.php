@@ -42,6 +42,7 @@ Route::middleware('auth:api')->group(function()
     Route::get('/user/coupons','Api\UsersController@allcoupons');
 
     Route::post('/user/rating','Api\UsersController@storereatings');
+    Route::post('/user','Api\AuthController@edit');
 });
 
 //product
@@ -56,7 +57,7 @@ Route::get('/products/sort/{type}/{sort}','Api\ProductController@sort');
 Route::get('/users', 'Api\UsersController@index');
 Route::get('/user/{id}','Api\UsersController@show');
 
-Route::post('/user/{id}','Api\UsersController@edit');
+
 
 //category
 Route::get('/categories', 'Api\CategoriesController@index');
