@@ -10,7 +10,6 @@ class Subscribe extends Model
     public $timestamps = false; // disable all behaviour
     //
     protected $fillable =[
-      'id',
       'email'
     ];
 }

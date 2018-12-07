@@ -74,3 +74,7 @@ Route::post('/order','Api\OrdersController@store');
 Route::post('/order/product','Api\OrdersController@storeproduct');
 
 
+//subscribe
+Route::post('/subscribe','Api\EventsController@subscribe');
+
+
