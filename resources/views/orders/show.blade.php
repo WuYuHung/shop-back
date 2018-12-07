@@ -14,12 +14,14 @@
                                 <th>手機</th>
                                 <th>總價</th>
                                 <th>折價</th>
+                                <th>下單時間</th>
                             </tr>
                             <tr>
                                 <td>{{ $order->email }}</td>
                                 <td>{{ $order->phone }}</td>
                                 <td>{{Round( $order->amount) }}</td>
                                 <td>{{ $order->discount }}%</td>
+                                <td>{{ $order->created_at }}</td>
                             </tr>
                         </table>
                     </div>
@@ -45,7 +47,7 @@
                                         <img src="{{asset('storage/'.$order_product->product->photo_path)}}" class="img-thumbnail">
                                     </td>
                                     <td>{{ $order_product->product->name }}</td>
-                                    <td>{{ $order_product->product->price }}</td>
+                                    <td>{{ ROUND($order_product->product->price) }}</td>
                                     <td>{{ $order_product->product->description }}</td>
                                     <td>{{ $order_product->quantity }}</td>
 

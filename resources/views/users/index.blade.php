@@ -31,14 +31,17 @@
 
 
                                             <td class="text-center">
+
                                                 @if(!$user->permission)
                                                     <form action="{{ route('user.destroy', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
+                                                        @method('DELETE')
                                                         <button type="submit" class="btn btn-outline-danger">
-                                                            {{!$user->is_vip ? "刪除" : "啟用"}}
+                                                            {{$user->active ? "刪除" : "啟用"}}
                                                         </button>
                                                     </form>
                                                 @endif
+
                                                     <form action="{{ route('user.update', $user->id) }}" method="post" style="display: inline-block">
                                                         @csrf
                                                         <button type="submit" class="btn btn-outline-danger">
