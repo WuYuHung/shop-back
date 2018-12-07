@@ -95,12 +95,15 @@ class CategoriesController extends Controller
             $request,
             [
                 'name'=>'required',
-                'photo_path'=>'required|image',
+                'photo_path'=>'image',
             ]
         );
-        $path = $request->file('photo_path')->store('images/category');
 
         $category = Category::find($id);
+        $path = $category->photo_path;
+        if($request->photo_path !=null)
+            $path = $request->file('photo_path')->store('images/category');
+
         $category->update([
             'name'=> $request->name,
 

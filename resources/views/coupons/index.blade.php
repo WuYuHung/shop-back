@@ -24,22 +24,18 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="box-header with-border">
-                        <h3 class="box-title">本站優惠券一覽表</h3>
+                        <h3 class="box-title">本站優惠券一覽表  <a href="{{route('coupon.create')}}"  class="btn btn-outline-primary">新增</a></h3>
 
-                        <div class="box-tools">
-
-                        </div>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table class="table table-bordered">
                             <tr>
-                                <th class="text-center" style="width: 10px;">id</th>
-                                <th class="text-center" style="width: 120px">代碼</th>
-                                <th class="text-center" style="width: 100px" >開始日期</th>
-                                <th class="text-center" style="width: 150px" >結束日期</th>
-                                <th class="text-center" style="width: 300px">描述</th>
-                                <a href="{{route('coupon.create')}}"  class="btn btn-xs btn-primary">新增</a>
+                                <th>id</th>
+                                <th style="width: 120px">代碼</th>
+                                <th>開始日期</th>
+                                <th>結束日期</th>
+                                <th style="width: 600px">描述</th>
                             </tr>
                             @foreach ($coupons as $coupon)
                                 <tr>
@@ -50,7 +46,7 @@
                                     <td>{{ $coupon->description }}</td>
                                     <td>
                                         <div>
-                                            <a href="{{route('coupon.show',$coupon->id)}}" class="btn btn-xs btn-promary">詳細</a>
+                                            <a href="{{route('coupon.show',$coupon->id)}}" class="btn btn-outline-primary">詳細</a>
                                         </div>
                                     </td>
                                 </tr>

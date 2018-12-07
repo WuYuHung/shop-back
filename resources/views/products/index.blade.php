@@ -11,21 +11,18 @@
                     <table id="order-listing" class="table" cellspacing="0">
                         <thead>
                         <tr>
-                            <th>ID#</th>
                             <th>照片路徑</th>
                             <th>商品名稱</th>
                             <th>種類</th>
                             <th>價格</th>
                             <th>商品述敘</th>
                             <th>創建日期</th>
-
                             <th>管理功能</th>
                         </tr>
                         </thead>
                         <tbody>
                         @foreach ($products as $product)
                         <tr>
-                            <td>{{ $product->id }}</td>
                             <td>
                                 <img src="{{asset('storage/'.$product->photo_path)}}" class="img-thumbnail">
                             </td>
@@ -47,7 +44,7 @@
                                     <form action="{{ route('products.destroy', $product->id) }}" method="post" style="display: inline-block">
                                         @csrf
                                         @method('DELETE')
-                                        <button type="submit" class="btn btn-outline-danger">刪除</button>
+                                        <button type="submit" class="btn btn-danger">刪除</button>
                                     </form>
                                 @endif
                             </td>

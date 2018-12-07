@@ -9,12 +9,12 @@
                         <!-- /.box-header -->
                             <table id="order-listing" class="table" cellspacing="0">
                                 <tr>
-                                    <th class="text-center" style="width: 50px">相片</th>
-                                    <th class="text-center" style="width: 250px">email</th>
-                                    <th class="text-center" style="width: 120px">姓名</th>
-                                    <th class="text-center" >地址</th>
-                                    <th class="text-center" style="width: 150px" >電話號碼</th>
-                                    <th class="text-center" style="width: 120px">生日</th>
+                                    <th  style="width: 50px">相片</th>
+                                    <th  style="width: 250px">email</th>
+                                    <th  style="width: 120px">姓名</th>
+                                    <th  >地址</th>
+                                    <th  style="width: 150px" >電話號碼</th>
+                                    <th  style="width: 120px">生日</th>
                                 </tr>
                                 @foreach ($users as $user)
 

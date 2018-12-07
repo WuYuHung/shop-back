@@ -28,7 +28,6 @@
 
                             <td>
                                 <a class="btn btn-outline-primary" href="{{route('categories.edit',[$category->id])}}">編輯</a>
-                                <a class="btn btn-outline-primary">刪除</a>
                             </td>
                         </tr>
                         @endforeach
