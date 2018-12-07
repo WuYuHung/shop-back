@@ -31,6 +31,11 @@ DB_PASSWORD=*使用者密碼*
 php artisan migrate --seed
 ```
 
+**產生JTW KEY**
+```sh
+php artisan jwt:secret
+```
+
 **接上storage**
 ```sh
 php artisan storage:link
