@@ -23,7 +23,7 @@ class ProductController extends Controller
 
     public function sort(string $type,string $sort)
     {
-        $products = Product::orderBy($type,$sort)->get();
+        $products = Product::orderBy($type,$sort)->paginate(20,null,'page');
 
         return response()->json($products,200);
     }
