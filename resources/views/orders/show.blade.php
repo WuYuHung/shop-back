@@ -20,7 +20,7 @@
                                 <td>{{ $order->email }}</td>
                                 <td>{{ $order->phone }}</td>
                                 <td>{{Round( $order->amount) }}</td>
-                                <td>{{ $order->discount }}%</td>
+                                <td>{{ (100 - $order->discount) }}% off</td>
                                 <td>{{ $order->created_at }}</td>
                             </tr>
                         </table>
