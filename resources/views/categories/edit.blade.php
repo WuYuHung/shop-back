@@ -31,7 +31,7 @@
 
                 <div class="col">
                     <div>
-                        <img id="preview_progressbarTW_img" src=" {{asset('/storage/images/category/default.png')}}" style="max-height:150px;" class="img-thumbnail"/>
+                        <img id="preview_progressbarTW_img" src=" {{asset('/images/category/default.png')}}" style="max-height:150px;" class="img-thumbnail"/>
                     </div>
                     <div class="row">
                         <div>

@@ -48,7 +48,7 @@
                     </div>
                     <div class="col-5">
                         <div>
-                            <img id="preview_progressbarTW_img" name ="preview_progressbarTW_img" src="{{asset('/storage/images/shop/default.png')}}" style="max-height:200px;" class="img-thumbnail"/>
+                            <img id="preview_progressbarTW_img" name ="preview_progressbarTW_img" src="{{asset('/images/shop/default.png')}}" style="max-height:200px;" class="img-thumbnail"/>
                         </div>
                         <div class="form-group">
                             {!! Form::file('photo_path',['id' => 'photo_path','targetID'=>'preview_progressbarTW_img','onchange'=> 'readURL(this)']) !!}
