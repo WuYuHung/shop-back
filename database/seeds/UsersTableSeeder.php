@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
             'active' => true,
             'permission' => true,
             'birthdate' => $faker->date("19".rand(70,99)."-".rand(1,12)."-".rand(1,28)),
-            'photo_path' => 'images/user/default.png',
+            'photo_path' => '../images/user/default.png',
             'is_vip' => true
         ]);
 
@@ -36,7 +36,7 @@ class UsersTableSeeder extends Seeder
                 'active' => true,
                 'permission' => false,
                 'birthdate' => $faker->date('19'.rand(70,99).'-'.rand(1,12).'-'.rand(1,28)),
-                'photo_path' => 'images/user/default.png',
+                'photo_path' => '../images/user/default.png',
                 'is_vip' => false
             ]);
         }
