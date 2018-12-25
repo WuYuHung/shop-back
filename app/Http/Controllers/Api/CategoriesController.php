@@ -16,7 +16,7 @@ class CategoriesController extends Controller
     public function index()
     {
         //
-        $categories = Category::all();
+        $categories = Category::where('is_deleted',false)->get();
 
         return response()->json($categories,200);
     }

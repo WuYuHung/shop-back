@@ -1,6 +1,6 @@
 @extends('layouts.blank')
 
-@section('title','編輯商品')
+@section('title','編輯商品分類')
 
 @section('content')
     <div class="col-lg-6 grid-margin stretch-card" style="margin: 0px auto;">
@@ -31,7 +31,7 @@
 
                 <div class="col">
                     <div>
-                        <img id="preview_progressbarTW_img" src=" {{asset('/storage/images/category/default.png')}}" style="max-height:150px;" class="img-thumbnail"/>
+                        <img id="preview_progressbarTW_img" src=" {{asset('/images/category/default.png')}}" style="max-height:150px;" class="img-thumbnail"/>
                     </div>
                     <div class="row">
                         <div>

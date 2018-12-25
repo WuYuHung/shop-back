@@ -17,7 +17,7 @@ class OrdersTableSeeder extends Seeder
         $status =['pay','stock','finish'];
         foreach (Range(1,100) as $number) {
                 \App\Order::create([
-                    'user_id' => rand(1,10),
+                    'user_id' => rand(1,21),
                     'coupon_id' => null,
                     'amount' => rand(10000,300000),
                     'first_name' => $faker->firstName,
@@ -25,7 +25,7 @@ class OrdersTableSeeder extends Seeder
                     'company_name' => $faker->company,
                     'address' => $faker->address,
                     'email' => $faker->email,
-                    'phone' => $faker->phoneNumber,
+                    'phone' => '0919'.rand(100000,999999),
                     'status' => $status[rand(0,2)],
                     'created_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*5),
                     'updated_at' => Carbon::now()->subMonth(12)->addHours(rand(1,5) + $number*10),

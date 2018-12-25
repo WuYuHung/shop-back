@@ -58,13 +58,13 @@ class OrdersController extends Controller
             $request,
             [
                 'user_id' => 'required',
-                'amount' => 'required|integer',
+                'amount' => 'required|numeric',
                 'first_name' => 'required|string',
                 'last_name' => 'required|string',
                 'company_name' => 'string',
                 'address' => 'required|string',
                 'email' => 'required|email',
-                'phone' => 'required',
+                'phone' => 'required|size:10',
                 'discount' => 'required'
             ]
         );
@@ -87,8 +87,10 @@ class OrdersController extends Controller
        {
            $usercoupon = UserCoupon::where('user_id',$request->user_id)
                ->where('coupon_id',$request->coupon_id)
+               ->where('is_used',false)
                ->first();
            $usercoupon->is_used = true;
+           $usercoupon->save();
        }
 
         return response()->json([

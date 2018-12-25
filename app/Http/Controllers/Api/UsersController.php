@@ -27,6 +27,13 @@ class UsersController extends Controller
 
     public  function storereatings(Request $request)
     {
+
+        $this->validate(
+            $request,
+            [
+                'description' => 'required',
+            ]
+        );
         $product_ratings= new ProductRating();
 
         $product_ratings->user_id = auth('api')->user()->id;
@@ -51,6 +58,7 @@ class UsersController extends Controller
 
     public function allproducts($status)
     {
+
         $products = OrderProduct::join('products','product_id','products.id')
             ->join('orders','order_id','orders.id')
             ->where('orders.status',$status)

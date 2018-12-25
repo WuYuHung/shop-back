@@ -40,6 +40,7 @@ Route::middleware('auth:api')->group(function()
     Route::get('/user/orders/{status}/products','Api\UsersController@allproducts');
     Route::get('/user/coupons','Api\UsersController@allcoupons');
 
+    Route::post('/user/rating','Api\UsersController@storereatings');
     Route::post('/user','Api\AuthController@edit');
     Route::post('/user/password','Api\AuthController@editPass');
     Route::post('/user/photo','Api\AuthController@changePhoto');
@@ -71,5 +72,9 @@ Route::get('/order/{id}/products','Api\OrdersController@allproducts');
 //order post
 Route::post('/order','Api\OrdersController@store');
 Route::post('/order/product','Api\OrdersController@storeproduct');
+
+
+//subscribe
+Route::post('/subscribe','Api\EventsController@subscribe');
 
 

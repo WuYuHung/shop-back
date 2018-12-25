@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Subscribe;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Notifications\Messages\MailMessage;
+use Illuminate\Support\Facades\Mail;
 
 class EventsController extends Controller
 {
@@ -15,6 +18,30 @@ class EventsController extends Controller
     public function index()
     {
         //
+    }
+
+    public function subscribe(Request $request)
+    {
+        $this->validate(
+            $request,
+            [
+                'email' => 'required|email|unique:subscribes',
+            ]
+        );
+
+        Subscribe::create([
+            'email' => $request->email
+        ]);
+
+        Mail::send( 'email',['data' => '感謝您訂閱我們，請定時查看信箱以接收最新消息'], function($message) use($request) {
+            $message
+                ->to($request->email)
+                ->subject('訂閱通知');
+        });
+
+        return response()->json([
+            'success' => true,
+        ]);
     }
 
     /**

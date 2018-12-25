@@ -2,10 +2,11 @@
 
 vendor/
 node_modules/
-
+/public/storage
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
+
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
